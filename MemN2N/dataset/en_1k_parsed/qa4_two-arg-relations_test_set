@@ -1,0 +1,11003 @@
+
++NS+
+1000
+
++I+
+0
++S+
+2
+The hallway is east of the bathroom 
+The bedroom is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+bedroom
+
++I+
+1
++S+
+2
+The bedroom is west of the kitchen 
+The hallway is west of the bedroom 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+2
++S+
+2
+The bathroom is north of the garden 
+The hallway is north of the bathroom 
++Q+
+What is north of the garden 
++A+
+bathroom
+
++I+
+3
++S+
+2
+The kitchen is south of the bathroom 
+The bedroom is south of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+bedroom
+
++I+
+4
++S+
+2
+The bedroom is east of the kitchen 
+The office is east of the bedroom 
++Q+
+What is east of the kitchen 
++A+
+bedroom
+
++I+
+5
++S+
+2
+The garden is east of the bathroom 
+The garden is west of the hallway 
++Q+
+What is the bathroom west of 
++A+
+garden
+
++I+
+6
++S+
+2
+The kitchen is east of the bedroom 
+The garden is west of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+kitchen
+
++I+
+7
++S+
+2
+The garden is north of the bedroom 
+The bathroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bathroom
+
++I+
+8
++S+
+2
+The kitchen is south of the office 
+The garden is south of the kitchen 
++Q+
+What is south of the office 
++A+
+kitchen
+
++I+
+9
++S+
+2
+The office is east of the hallway 
+The hallway is east of the garden 
++Q+
+What is east of the hallway 
++A+
+office
+
++I+
+10
++S+
+2
+The hallway is south of the office 
+The garden is north of the office 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+11
++S+
+2
+The garden is south of the kitchen 
+The office is north of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+garden
+
++I+
+12
++S+
+2
+The bathroom is east of the kitchen 
+The bedroom is east of the bathroom 
++Q+
+What is east of the kitchen 
++A+
+bathroom
+
++I+
+13
++S+
+2
+The bathroom is east of the kitchen 
+The garden is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+garden
+
++I+
+14
++S+
+2
+The garden is north of the bedroom 
+The bedroom is north of the office 
++Q+
+What is north of the bedroom 
++A+
+garden
+
++I+
+15
++S+
+2
+The garden is west of the bathroom 
+The garden is east of the hallway 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+16
++S+
+2
+The hallway is east of the office 
+The hallway is west of the bathroom 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+17
++S+
+2
+The office is south of the bathroom 
+The kitchen is north of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+office
+
++I+
+18
++S+
+2
+The kitchen is north of the bedroom 
+The garden is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+garden
+
++I+
+19
++S+
+2
+The garden is east of the kitchen 
+The bedroom is west of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+garden
+
++I+
+20
++S+
+2
+The hallway is east of the office 
+The garden is west of the office 
++Q+
+What is the office east of 
++A+
+garden
+
++I+
+21
++S+
+2
+The kitchen is south of the bathroom 
+The garden is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+garden
+
++I+
+22
++S+
+2
+The kitchen is south of the bedroom 
+The bathroom is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+bathroom
+
++I+
+23
++S+
+2
+The office is north of the bathroom 
+The bathroom is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+bathroom
+
++I+
+24
++S+
+2
+The hallway is east of the bedroom 
+The office is west of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+hallway
+
++I+
+25
++S+
+2
+The kitchen is west of the bathroom 
+The office is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+office
+
++I+
+26
++S+
+2
+The office is north of the bedroom 
+The bedroom is north of the hallway 
++Q+
+What is north of the bedroom 
++A+
+office
+
++I+
+27
++S+
+2
+The office is east of the bathroom 
+The hallway is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+hallway
+
++I+
+28
++S+
+2
+The garden is south of the bathroom 
+The office is north of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+garden
+
++I+
+29
++S+
+2
+The garden is north of the office 
+The garden is south of the bathroom 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+30
++S+
+2
+The bedroom is east of the kitchen 
+The office is east of the bedroom 
++Q+
+What is east of the kitchen 
++A+
+bedroom
+
++I+
+31
++S+
+2
+The kitchen is east of the hallway 
+The kitchen is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+kitchen
+
++I+
+32
++S+
+2
+The bathroom is north of the garden 
+The bedroom is south of the garden 
++Q+
+What is north of the garden 
++A+
+bathroom
+
++I+
+33
++S+
+2
+The kitchen is east of the bedroom 
+The hallway is west of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+kitchen
+
++I+
+34
++S+
+2
+The hallway is south of the kitchen 
+The bedroom is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+bedroom
+
++I+
+35
++S+
+2
+The garden is west of the bathroom 
+The bedroom is west of the garden 
++Q+
+What is the bathroom east of 
++A+
+garden
+
++I+
+36
++S+
+2
+The office is south of the hallway 
+The hallway is south of the bathroom 
++Q+
+What is south of the hallway 
++A+
+office
+
++I+
+37
++S+
+2
+The hallway is south of the bathroom 
+The bedroom is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+bedroom
+
++I+
+38
++S+
+2
+The bedroom is west of the bathroom 
+The bathroom is west of the office 
++Q+
+What is the bathroom east of 
++A+
+bedroom
+
++I+
+39
++S+
+2
+The office is south of the kitchen 
+The office is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+office
+
++I+
+40
++S+
+2
+The bathroom is south of the kitchen 
+The hallway is south of the bathroom 
++Q+
+What is south of the kitchen 
++A+
+bathroom
+
++I+
+41
++S+
+2
+The bedroom is west of the office 
+The bathroom is west of the bedroom 
++Q+
+What is west of the office 
++A+
+bedroom
+
++I+
+42
++S+
+2
+The kitchen is north of the garden 
+The bedroom is north of the kitchen 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+43
++S+
+2
+The garden is north of the bathroom 
+The garden is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+garden
+
++I+
+44
++S+
+2
+The garden is north of the office 
+The hallway is south of the office 
++Q+
+What is the office south of 
++A+
+garden
+
++I+
+45
++S+
+2
+The office is west of the bedroom 
+The hallway is west of the office 
++Q+
+What is the office east of 
++A+
+hallway
+
++I+
+46
++S+
+2
+The garden is south of the office 
+The bedroom is south of the garden 
++Q+
+What is south of the office 
++A+
+garden
+
++I+
+47
++S+
+2
+The garden is west of the bedroom 
+The bedroom is west of the bathroom 
++Q+
+What is west of the bedroom 
++A+
+garden
+
++I+
+48
++S+
+2
+The garden is east of the hallway 
+The bedroom is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+49
++S+
+2
+The garden is north of the office 
+The hallway is south of the office 
++Q+
+What is the office south of 
++A+
+garden
+
++I+
+50
++S+
+2
+The bedroom is south of the hallway 
+The hallway is south of the garden 
++Q+
+What is the hallway north of 
++A+
+bedroom
+
++I+
+51
++S+
+2
+The office is north of the garden 
+The garden is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+garden
+
++I+
+52
++S+
+2
+The hallway is south of the bedroom 
+The bedroom is south of the garden 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+53
++S+
+2
+The kitchen is east of the bathroom 
+The bathroom is east of the garden 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+54
++S+
+2
+The office is east of the bedroom 
+The bathroom is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+bathroom
+
++I+
+55
++S+
+2
+The garden is east of the hallway 
+The bedroom is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+56
++S+
+2
+The hallway is west of the bedroom 
+The hallway is east of the kitchen 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+57
++S+
+2
+The garden is east of the hallway 
+The kitchen is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+58
++S+
+2
+The garden is south of the hallway 
+The hallway is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+hallway
+
++I+
+59
++S+
+2
+The bathroom is north of the garden 
+The kitchen is south of the garden 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+60
++S+
+2
+The hallway is south of the bedroom 
+The bathroom is south of the hallway 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+61
++S+
+2
+The office is south of the bedroom 
+The bedroom is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+bedroom
+
++I+
+62
++S+
+2
+The garden is north of the hallway 
+The kitchen is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+kitchen
+
++I+
+63
++S+
+2
+The hallway is west of the bedroom 
+The garden is west of the hallway 
++Q+
+What is west of the bedroom 
++A+
+hallway
+
++I+
+64
++S+
+2
+The garden is east of the office 
+The bedroom is east of the garden 
++Q+
+What is east of the garden 
++A+
+bedroom
+
++I+
+65
++S+
+2
+The office is south of the bedroom 
+The bedroom is south of the garden 
++Q+
+What is the bedroom north of 
++A+
+office
+
++I+
+66
++S+
+2
+The hallway is north of the bedroom 
+The bathroom is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+bathroom
+
++I+
+67
++S+
+2
+The bedroom is south of the garden 
+The office is north of the garden 
++Q+
+What is the garden south of 
++A+
+office
+
++I+
+68
++S+
+2
+The garden is west of the bathroom 
+The kitchen is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+kitchen
+
++I+
+69
++S+
+2
+The garden is west of the hallway 
+The bathroom is east of the hallway 
++Q+
+What is the hallway east of 
++A+
+garden
+
++I+
+70
++S+
+2
+The hallway is north of the bedroom 
+The bathroom is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+71
++S+
+2
+The kitchen is north of the garden 
+The office is south of the garden 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+72
++S+
+2
+The garden is south of the hallway 
+The garden is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+garden
+
++I+
+73
++S+
+2
+The hallway is south of the office 
+The bathroom is north of the office 
++Q+
+What is north of the office 
++A+
+bathroom
+
++I+
+74
++S+
+2
+The hallway is south of the office 
+The bathroom is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+bathroom
+
++I+
+75
++S+
+2
+The garden is south of the bedroom 
+The bedroom is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+bedroom
+
++I+
+76
++S+
+2
+The bedroom is west of the hallway 
+The bathroom is east of the hallway 
++Q+
+What is the hallway east of 
++A+
+bedroom
+
++I+
+77
++S+
+2
+The bathroom is north of the office 
+The office is north of the garden 
++Q+
+What is north of the office 
++A+
+bathroom
+
++I+
+78
++S+
+2
+The kitchen is east of the garden 
+The bathroom is east of the kitchen 
++Q+
+What is east of the garden 
++A+
+kitchen
+
++I+
+79
++S+
+2
+The office is south of the kitchen 
+The hallway is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+hallway
+
++I+
+80
++S+
+2
+The bedroom is east of the office 
+The garden is west of the office 
++Q+
+What is west of the office 
++A+
+garden
+
++I+
+81
++S+
+2
+The office is east of the bedroom 
+The hallway is east of the office 
++Q+
+What is the bedroom west of 
++A+
+office
+
++I+
+82
++S+
+2
+The bathroom is south of the hallway 
+The kitchen is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+kitchen
+
++I+
+83
++S+
+2
+The garden is east of the office 
+The bedroom is east of the garden 
++Q+
+What is the office west of 
++A+
+garden
+
++I+
+84
++S+
+2
+The office is south of the hallway 
+The bathroom is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+bathroom
+
++I+
+85
++S+
+2
+The office is west of the garden 
+The bathroom is west of the office 
++Q+
+What is west of the garden 
++A+
+office
+
++I+
+86
++S+
+2
+The garden is west of the hallway 
+The office is west of the garden 
++Q+
+What is west of the garden 
++A+
+office
+
++I+
+87
++S+
+2
+The garden is east of the bathroom 
+The kitchen is east of the garden 
++Q+
+What is east of the bathroom 
++A+
+garden
+
++I+
+88
++S+
+2
+The kitchen is north of the bathroom 
+The bathroom is north of the office 
++Q+
+What is north of the office 
++A+
+bathroom
+
++I+
+89
++S+
+2
+The kitchen is east of the bedroom 
+The hallway is west of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+kitchen
+
++I+
+90
++S+
+2
+The office is north of the bathroom 
+The hallway is north of the office 
++Q+
+What is the bathroom south of 
++A+
+office
+
++I+
+91
++S+
+2
+The kitchen is west of the bedroom 
+The office is east of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+office
+
++I+
+92
++S+
+2
+The bedroom is south of the office 
+The bedroom is north of the hallway 
++Q+
+What is south of the office 
++A+
+bedroom
+
++I+
+93
++S+
+2
+The kitchen is east of the bathroom 
+The bathroom is east of the garden 
++Q+
+What is the garden west of 
++A+
+bathroom
+
++I+
+94
++S+
+2
+The hallway is west of the bedroom 
+The garden is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+garden
+
++I+
+95
++S+
+2
+The garden is north of the kitchen 
+The hallway is north of the garden 
++Q+
+What is north of the garden 
++A+
+hallway
+
++I+
+96
++S+
+2
+The bedroom is east of the kitchen 
+The bathroom is west of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bedroom
+
++I+
+97
++S+
+2
+The office is west of the kitchen 
+The kitchen is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+98
++S+
+2
+The bathroom is south of the kitchen 
+The office is south of the bathroom 
++Q+
+What is the kitchen north of 
++A+
+bathroom
+
++I+
+99
++S+
+2
+The bedroom is north of the office 
+The garden is south of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+100
++S+
+2
+The bedroom is east of the hallway 
+The bedroom is west of the garden 
++Q+
+What is east of the hallway 
++A+
+bedroom
+
++I+
+101
++S+
+2
+The garden is north of the hallway 
+The kitchen is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+102
++S+
+2
+The bathroom is west of the office 
+The bedroom is east of the office 
++Q+
+What is the office west of 
++A+
+bedroom
+
++I+
+103
++S+
+2
+The kitchen is south of the garden 
+The bathroom is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+bathroom
+
++I+
+104
++S+
+2
+The hallway is west of the bedroom 
+The kitchen is east of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+hallway
+
++I+
+105
++S+
+2
+The bedroom is west of the kitchen 
+The garden is east of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+106
++S+
+2
+The office is north of the kitchen 
+The office is south of the hallway 
++Q+
+What is the kitchen south of 
++A+
+office
+
++I+
+107
++S+
+2
+The bedroom is west of the bathroom 
+The bathroom is west of the garden 
++Q+
+What is west of the garden 
++A+
+bathroom
+
++I+
+108
++S+
+2
+The hallway is north of the bedroom 
+The bedroom is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+bedroom
+
++I+
+109
++S+
+2
+The kitchen is east of the garden 
+The bathroom is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bathroom
+
++I+
+110
++S+
+2
+The garden is east of the hallway 
+The hallway is east of the bathroom 
++Q+
+What is the hallway west of 
++A+
+garden
+
++I+
+111
++S+
+2
+The hallway is north of the kitchen 
+The kitchen is north of the bathroom 
++Q+
+What is the kitchen south of 
++A+
+hallway
+
++I+
+112
++S+
+2
+The office is south of the bathroom 
+The bedroom is north of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+office
+
++I+
+113
++S+
+2
+The bedroom is west of the office 
+The hallway is east of the office 
++Q+
+What is the office west of 
++A+
+hallway
+
++I+
+114
++S+
+2
+The kitchen is south of the garden 
+The bedroom is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+bedroom
+
++I+
+115
++S+
+2
+The office is west of the garden 
+The hallway is east of the garden 
++Q+
+What is the garden east of 
++A+
+office
+
++I+
+116
++S+
+2
+The bedroom is north of the hallway 
+The office is south of the hallway 
++Q+
+What is the hallway south of 
++A+
+bedroom
+
++I+
+117
++S+
+2
+The bedroom is east of the garden 
+The bedroom is west of the hallway 
++Q+
+What is the garden west of 
++A+
+bedroom
+
++I+
+118
++S+
+2
+The hallway is north of the office 
+The kitchen is south of the office 
++Q+
+What is north of the office 
++A+
+hallway
+
++I+
+119
++S+
+2
+The office is west of the hallway 
+The office is east of the kitchen 
++Q+
+What is west of the hallway 
++A+
+office
+
++I+
+120
++S+
+2
+The bedroom is south of the bathroom 
+The hallway is south of the bedroom 
++Q+
+What is the bathroom north of 
++A+
+bedroom
+
++I+
+121
++S+
+2
+The bedroom is south of the kitchen 
+The kitchen is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+kitchen
+
++I+
+122
++S+
+2
+The kitchen is west of the bathroom 
+The office is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+office
+
++I+
+123
++S+
+2
+The bathroom is north of the hallway 
+The bathroom is south of the office 
++Q+
+What is north of the hallway 
++A+
+bathroom
+
++I+
+124
++S+
+2
+The hallway is north of the bedroom 
+The bathroom is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+bathroom
+
++I+
+125
++S+
+2
+The kitchen is west of the garden 
+The office is west of the kitchen 
++Q+
+What is west of the garden 
++A+
+kitchen
+
++I+
+126
++S+
+2
+The garden is north of the bathroom 
+The bathroom is north of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+bathroom
+
++I+
+127
++S+
+2
+The garden is east of the bedroom 
+The hallway is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+128
++S+
+2
+The bedroom is north of the kitchen 
+The garden is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+garden
+
++I+
+129
++S+
+2
+The bedroom is west of the bathroom 
+The hallway is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+130
++S+
+2
+The hallway is east of the bedroom 
+The garden is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+garden
+
++I+
+131
++S+
+2
+The kitchen is south of the bathroom 
+The bathroom is south of the bedroom 
++Q+
+What is south of the bathroom 
++A+
+kitchen
+
++I+
+132
++S+
+2
+The bathroom is west of the garden 
+The kitchen is east of the garden 
++Q+
+What is east of the garden 
++A+
+kitchen
+
++I+
+133
++S+
+2
+The bathroom is east of the office 
+The bathroom is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+bathroom
+
++I+
+134
++S+
+2
+The hallway is west of the bedroom 
+The office is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+office
+
++I+
+135
++S+
+2
+The kitchen is west of the garden 
+The bedroom is west of the kitchen 
++Q+
+What is the garden east of 
++A+
+kitchen
+
++I+
+136
++S+
+2
+The bedroom is north of the kitchen 
+The bathroom is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+bathroom
+
++I+
+137
++S+
+2
+The kitchen is west of the hallway 
+The hallway is west of the garden 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+138
++S+
+2
+The hallway is south of the garden 
+The kitchen is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+139
++S+
+2
+The garden is west of the hallway 
+The hallway is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+hallway
+
++I+
+140
++S+
+2
+The kitchen is north of the garden 
+The bathroom is north of the kitchen 
++Q+
+What is north of the garden 
++A+
+kitchen
+
++I+
+141
++S+
+2
+The office is east of the kitchen 
+The bathroom is west of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+office
+
++I+
+142
++S+
+2
+The garden is north of the kitchen 
+The bathroom is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+bathroom
+
++I+
+143
++S+
+2
+The bathroom is east of the kitchen 
+The garden is east of the bathroom 
++Q+
+What is east of the kitchen 
++A+
+bathroom
+
++I+
+144
++S+
+2
+The bedroom is west of the garden 
+The bathroom is east of the garden 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+145
++S+
+2
+The kitchen is north of the office 
+The kitchen is south of the garden 
++Q+
+What is the office south of 
++A+
+kitchen
+
++I+
+146
++S+
+2
+The hallway is south of the kitchen 
+The garden is south of the hallway 
++Q+
+What is the kitchen north of 
++A+
+hallway
+
++I+
+147
++S+
+2
+The bedroom is east of the kitchen 
+The hallway is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+hallway
+
++I+
+148
++S+
+2
+The bathroom is east of the office 
+The kitchen is east of the bathroom 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+149
++S+
+2
+The bathroom is north of the hallway 
+The hallway is north of the office 
++Q+
+What is the office south of 
++A+
+hallway
+
++I+
+150
++S+
+2
+The bathroom is north of the hallway 
+The garden is north of the bathroom 
++Q+
+What is north of the hallway 
++A+
+bathroom
+
++I+
+151
++S+
+2
+The hallway is east of the bathroom 
+The garden is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+garden
+
++I+
+152
++S+
+2
+The kitchen is west of the bathroom 
+The kitchen is east of the garden 
++Q+
+What is the bathroom east of 
++A+
+kitchen
+
++I+
+153
++S+
+2
+The hallway is south of the kitchen 
+The office is north of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+hallway
+
++I+
+154
++S+
+2
+The bedroom is north of the office 
+The hallway is south of the office 
++Q+
+What is south of the office 
++A+
+hallway
+
++I+
+155
++S+
+2
+The garden is east of the bedroom 
+The bedroom is east of the hallway 
++Q+
+What is the bedroom west of 
++A+
+garden
+
++I+
+156
++S+
+2
+The bathroom is north of the bedroom 
+The office is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+office
+
++I+
+157
++S+
+2
+The bathroom is north of the garden 
+The hallway is north of the bathroom 
++Q+
+What is north of the garden 
++A+
+bathroom
+
++I+
+158
++S+
+2
+The garden is west of the bedroom 
+The office is east of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+garden
+
++I+
+159
++S+
+2
+The bathroom is north of the kitchen 
+The bedroom is south of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+bedroom
+
++I+
+160
++S+
+2
+The hallway is north of the office 
+The bedroom is south of the office 
++Q+
+What is the office south of 
++A+
+hallway
+
++I+
+161
++S+
+2
+The bathroom is north of the garden 
+The bedroom is south of the garden 
++Q+
+What is north of the garden 
++A+
+bathroom
+
++I+
+162
++S+
+2
+The hallway is east of the bathroom 
+The garden is west of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+163
++S+
+2
+The bathroom is west of the hallway 
+The hallway is west of the office 
++Q+
+What is the office east of 
++A+
+hallway
+
++I+
+164
++S+
+2
+The bathroom is east of the office 
+The garden is west of the office 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+165
++S+
+2
+The kitchen is west of the bedroom 
+The hallway is west of the kitchen 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+166
++S+
+2
+The office is north of the hallway 
+The bedroom is north of the office 
++Q+
+What is north of the hallway 
++A+
+office
+
++I+
+167
++S+
+2
+The garden is south of the office 
+The bathroom is north of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+168
++S+
+2
+The office is east of the hallway 
+The kitchen is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+169
++S+
+2
+The garden is north of the hallway 
+The bedroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+170
++S+
+2
+The office is north of the bedroom 
+The hallway is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+171
++S+
+2
+The bathroom is east of the hallway 
+The hallway is east of the bedroom 
++Q+
+What is the hallway west of 
++A+
+bathroom
+
++I+
+172
++S+
+2
+The office is north of the kitchen 
+The kitchen is north of the garden 
++Q+
+What is north of the garden 
++A+
+kitchen
+
++I+
+173
++S+
+2
+The hallway is south of the bathroom 
+The bathroom is south of the garden 
++Q+
+What is the bathroom north of 
++A+
+hallway
+
++I+
+174
++S+
+2
+The office is south of the hallway 
+The bathroom is south of the office 
++Q+
+What is south of the office 
++A+
+bathroom
+
++I+
+175
++S+
+2
+The kitchen is west of the bathroom 
+The office is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+office
+
++I+
+176
++S+
+2
+The garden is west of the bedroom 
+The hallway is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+hallway
+
++I+
+177
++S+
+2
+The kitchen is south of the office 
+The hallway is north of the office 
++Q+
+What is the office south of 
++A+
+hallway
+
++I+
+178
++S+
+2
+The bathroom is north of the office 
+The kitchen is south of the office 
++Q+
+What is south of the office 
++A+
+kitchen
+
++I+
+179
++S+
+2
+The office is south of the garden 
+The bathroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bathroom
+
++I+
+180
++S+
+2
+The hallway is south of the bedroom 
+The bedroom is south of the bathroom 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+181
++S+
+2
+The bathroom is east of the hallway 
+The garden is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+bathroom
+
++I+
+182
++S+
+2
+The hallway is east of the bathroom 
+The bedroom is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+bedroom
+
++I+
+183
++S+
+2
+The bathroom is south of the garden 
+The garden is south of the office 
++Q+
+What is south of the garden 
++A+
+bathroom
+
++I+
+184
++S+
+2
+The office is east of the garden 
+The bedroom is east of the office 
++Q+
+What is the office west of 
++A+
+bedroom
+
++I+
+185
++S+
+2
+The kitchen is west of the bathroom 
+The bathroom is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+bathroom
+
++I+
+186
++S+
+2
+The garden is east of the office 
+The garden is west of the bathroom 
++Q+
+What is the office west of 
++A+
+garden
+
++I+
+187
++S+
+2
+The hallway is south of the garden 
+The garden is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+garden
+
++I+
+188
++S+
+2
+The garden is south of the kitchen 
+The kitchen is south of the office 
++Q+
+What is south of the office 
++A+
+kitchen
+
++I+
+189
++S+
+2
+The hallway is east of the bathroom 
+The office is west of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+190
++S+
+2
+The hallway is west of the bathroom 
+The bathroom is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+bathroom
+
++I+
+191
++S+
+2
+The office is west of the bedroom 
+The bathroom is west of the office 
++Q+
+What is the office east of 
++A+
+bathroom
+
++I+
+192
++S+
+2
+The hallway is south of the office 
+The bedroom is north of the office 
++Q+
+What is the office south of 
++A+
+bedroom
+
++I+
+193
++S+
+2
+The office is north of the kitchen 
+The hallway is south of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+office
+
++I+
+194
++S+
+2
+The bedroom is east of the garden 
+The garden is east of the hallway 
++Q+
+What is east of the garden 
++A+
+bedroom
+
++I+
+195
++S+
+2
+The bathroom is east of the bedroom 
+The office is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+office
+
++I+
+196
++S+
+2
+The kitchen is north of the hallway 
+The garden is south of the hallway 
++Q+
+What is north of the hallway 
++A+
+kitchen
+
++I+
+197
++S+
+2
+The office is north of the kitchen 
+The bedroom is north of the office 
++Q+
+What is the kitchen south of 
++A+
+office
+
++I+
+198
++S+
+2
+The garden is south of the hallway 
+The bedroom is south of the garden 
++Q+
+What is south of the hallway 
++A+
+garden
+
++I+
+199
++S+
+2
+The kitchen is south of the office 
+The kitchen is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+kitchen
+
++I+
+200
++S+
+2
+The garden is south of the hallway 
+The bedroom is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+bedroom
+
++I+
+201
++S+
+2
+The garden is east of the kitchen 
+The hallway is east of the garden 
++Q+
+What is east of the garden 
++A+
+hallway
+
++I+
+202
++S+
+2
+The office is south of the bathroom 
+The hallway is south of the office 
++Q+
+What is the bathroom north of 
++A+
+office
+
++I+
+203
++S+
+2
+The kitchen is east of the bedroom 
+The kitchen is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+204
++S+
+2
+The office is west of the bathroom 
+The garden is east of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+office
+
++I+
+205
++S+
+2
+The bathroom is east of the bedroom 
+The garden is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+garden
+
++I+
+206
++S+
+2
+The hallway is north of the office 
+The garden is south of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+207
++S+
+2
+The hallway is south of the garden 
+The garden is south of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+208
++S+
+2
+The garden is south of the office 
+The bathroom is north of the office 
++Q+
+What is south of the office 
++A+
+garden
+
++I+
+209
++S+
+2
+The bathroom is south of the kitchen 
+The kitchen is south of the garden 
++Q+
+What is south of the kitchen 
++A+
+bathroom
+
++I+
+210
++S+
+2
+The garden is north of the bedroom 
+The office is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+office
+
++I+
+211
++S+
+2
+The kitchen is east of the hallway 
+The kitchen is west of the office 
++Q+
+What is the office east of 
++A+
+kitchen
+
++I+
+212
++S+
+2
+The office is west of the bedroom 
+The bedroom is west of the kitchen 
++Q+
+What is west of the bedroom 
++A+
+office
+
++I+
+213
++S+
+2
+The hallway is north of the bedroom 
+The bathroom is south of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+hallway
+
++I+
+214
++S+
+2
+The hallway is north of the kitchen 
+The bathroom is south of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+hallway
+
++I+
+215
++S+
+2
+The bedroom is west of the hallway 
+The hallway is west of the bathroom 
++Q+
+What is west of the hallway 
++A+
+bedroom
+
++I+
+216
++S+
+2
+The bedroom is west of the office 
+The bedroom is east of the garden 
++Q+
+What is west of the office 
++A+
+bedroom
+
++I+
+217
++S+
+2
+The garden is east of the hallway 
+The hallway is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+218
++S+
+2
+The bathroom is south of the garden 
+The office is north of the garden 
++Q+
+What is the garden south of 
++A+
+office
+
++I+
+219
++S+
+2
+The garden is east of the hallway 
+The hallway is east of the office 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+220
++S+
+2
+The kitchen is north of the bedroom 
+The office is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+office
+
++I+
+221
++S+
+2
+The kitchen is west of the bedroom 
+The bedroom is west of the hallway 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+222
++S+
+2
+The kitchen is west of the garden 
+The garden is west of the bathroom 
++Q+
+What is west of the garden 
++A+
+kitchen
+
++I+
+223
++S+
+2
+The bathroom is east of the hallway 
+The bedroom is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+bedroom
+
++I+
+224
++S+
+2
+The garden is west of the office 
+The kitchen is east of the office 
++Q+
+What is the office west of 
++A+
+kitchen
+
++I+
+225
++S+
+2
+The kitchen is east of the garden 
+The hallway is west of the garden 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+226
++S+
+2
+The hallway is north of the kitchen 
+The bathroom is north of the hallway 
++Q+
+What is north of the kitchen 
++A+
+hallway
+
++I+
+227
++S+
+2
+The bedroom is north of the garden 
+The kitchen is south of the garden 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+228
++S+
+2
+The kitchen is north of the garden 
+The hallway is south of the garden 
++Q+
+What is the garden north of 
++A+
+hallway
+
++I+
+229
++S+
+2
+The kitchen is west of the bedroom 
+The bathroom is east of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+230
++S+
+2
+The garden is north of the hallway 
+The bedroom is south of the hallway 
++Q+
+What is north of the hallway 
++A+
+garden
+
++I+
+231
++S+
+2
+The bedroom is east of the garden 
+The garden is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+garden
+
++I+
+232
++S+
+2
+The office is east of the bathroom 
+The hallway is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+hallway
+
++I+
+233
++S+
+2
+The kitchen is north of the bathroom 
+The bedroom is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+bedroom
+
++I+
+234
++S+
+2
+The garden is east of the bathroom 
+The bathroom is east of the office 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+235
++S+
+2
+The kitchen is east of the bedroom 
+The bedroom is east of the bathroom 
++Q+
+What is east of the bedroom 
++A+
+kitchen
+
++I+
+236
++S+
+2
+The garden is west of the bedroom 
+The office is east of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+office
+
++I+
+237
++S+
+2
+The garden is west of the kitchen 
+The bathroom is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+bathroom
+
++I+
+238
++S+
+2
+The bedroom is east of the garden 
+The bedroom is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+239
++S+
+2
+The bathroom is south of the office 
+The office is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+office
+
++I+
+240
++S+
+2
+The hallway is north of the garden 
+The garden is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+garden
+
++I+
+241
++S+
+2
+The bathroom is east of the kitchen 
+The kitchen is east of the hallway 
++Q+
+What is east of the kitchen 
++A+
+bathroom
+
++I+
+242
++S+
+2
+The office is north of the garden 
+The bathroom is south of the garden 
++Q+
+What is north of the garden 
++A+
+office
+
++I+
+243
++S+
+2
+The bathroom is south of the hallway 
+The bedroom is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+bedroom
+
++I+
+244
++S+
+2
+The kitchen is east of the bathroom 
+The office is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+office
+
++I+
+245
++S+
+2
+The kitchen is south of the garden 
+The garden is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+garden
+
++I+
+246
++S+
+2
+The bathroom is east of the office 
+The garden is west of the office 
++Q+
+What is west of the office 
++A+
+garden
+
++I+
+247
++S+
+2
+The hallway is south of the kitchen 
+The kitchen is south of the garden 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+248
++S+
+2
+The hallway is west of the office 
+The office is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+office
+
++I+
+249
++S+
+2
+The bedroom is east of the hallway 
+The office is east of the bedroom 
++Q+
+What is the hallway west of 
++A+
+bedroom
+
++I+
+250
++S+
+2
+The office is south of the bathroom 
+The bedroom is north of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+office
+
++I+
+251
++S+
+2
+The garden is east of the bedroom 
+The kitchen is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+252
++S+
+2
+The kitchen is north of the hallway 
+The office is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+office
+
++I+
+253
++S+
+2
+The garden is east of the bedroom 
+The bedroom is east of the hallway 
++Q+
+What is east of the hallway 
++A+
+bedroom
+
++I+
+254
++S+
+2
+The bathroom is south of the kitchen 
+The office is south of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+office
+
++I+
+255
++S+
+2
+The bathroom is south of the hallway 
+The hallway is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+256
++S+
+2
+The garden is west of the hallway 
+The bathroom is west of the garden 
++Q+
+What is the garden east of 
++A+
+bathroom
+
++I+
+257
++S+
+2
+The hallway is north of the bathroom 
+The kitchen is south of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+kitchen
+
++I+
+258
++S+
+2
+The kitchen is west of the bedroom 
+The bedroom is west of the office 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+259
++S+
+2
+The hallway is west of the office 
+The garden is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+garden
+
++I+
+260
++S+
+2
+The bedroom is north of the garden 
+The kitchen is south of the garden 
++Q+
+What is south of the garden 
++A+
+kitchen
+
++I+
+261
++S+
+2
+The hallway is west of the bedroom 
+The bedroom is west of the bathroom 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+262
++S+
+2
+The garden is west of the office 
+The hallway is east of the office 
++Q+
+What is west of the office 
++A+
+garden
+
++I+
+263
++S+
+2
+The office is north of the kitchen 
+The bedroom is south of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+office
+
++I+
+264
++S+
+2
+The garden is south of the office 
+The bathroom is south of the garden 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+265
++S+
+2
+The bathroom is north of the kitchen 
+The kitchen is north of the office 
++Q+
+What is north of the office 
++A+
+kitchen
+
++I+
+266
++S+
+2
+The garden is south of the bedroom 
+The hallway is south of the garden 
++Q+
+What is south of the bedroom 
++A+
+garden
+
++I+
+267
++S+
+2
+The hallway is south of the garden 
+The kitchen is north of the garden 
++Q+
+What is the garden north of 
++A+
+hallway
+
++I+
+268
++S+
+2
+The garden is west of the bedroom 
+The kitchen is east of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+garden
+
++I+
+269
++S+
+2
+The bedroom is east of the bathroom 
+The bedroom is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+bedroom
+
++I+
+270
++S+
+2
+The bathroom is east of the hallway 
+The hallway is east of the bedroom 
++Q+
+What is east of the hallway 
++A+
+bathroom
+
++I+
+271
++S+
+2
+The kitchen is north of the bedroom 
+The bedroom is north of the garden 
++Q+
+What is the bedroom south of 
++A+
+kitchen
+
++I+
+272
++S+
+2
+The hallway is east of the garden 
+The office is west of the garden 
++Q+
+What is east of the garden 
++A+
+hallway
+
++I+
+273
++S+
+2
+The kitchen is north of the hallway 
+The garden is south of the hallway 
++Q+
+What is the hallway south of 
++A+
+kitchen
+
++I+
+274
++S+
+2
+The kitchen is east of the bathroom 
+The office is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+office
+
++I+
+275
++S+
+2
+The bathroom is south of the garden 
+The bedroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+276
++S+
+2
+The garden is west of the kitchen 
+The bathroom is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bathroom
+
++I+
+277
++S+
+2
+The bathroom is east of the garden 
+The bathroom is west of the office 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+278
++S+
+2
+The bedroom is south of the bathroom 
+The hallway is south of the bedroom 
++Q+
+What is south of the bathroom 
++A+
+bedroom
+
++I+
+279
++S+
+2
+The kitchen is west of the bedroom 
+The office is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+office
+
++I+
+280
++S+
+2
+The kitchen is south of the garden 
+The hallway is north of the garden 
++Q+
+What is north of the garden 
++A+
+hallway
+
++I+
+281
++S+
+2
+The kitchen is east of the office 
+The hallway is west of the office 
++Q+
+What is west of the office 
++A+
+hallway
+
++I+
+282
++S+
+2
+The bathroom is east of the bedroom 
+The hallway is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+283
++S+
+2
+The kitchen is west of the bedroom 
+The hallway is west of the kitchen 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+284
++S+
+2
+The garden is north of the office 
+The garden is south of the kitchen 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+285
++S+
+2
+The garden is north of the hallway 
+The garden is south of the bathroom 
++Q+
+What is the hallway south of 
++A+
+garden
+
++I+
+286
++S+
+2
+The hallway is west of the garden 
+The garden is west of the bedroom 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+287
++S+
+2
+The bathroom is east of the bedroom 
+The garden is east of the bathroom 
++Q+
+What is east of the bedroom 
++A+
+bathroom
+
++I+
+288
++S+
+2
+The office is east of the bedroom 
+The garden is east of the office 
++Q+
+What is east of the office 
++A+
+garden
+
++I+
+289
++S+
+2
+The garden is east of the hallway 
+The office is east of the garden 
++Q+
+What is the garden west of 
++A+
+office
+
++I+
+290
++S+
+2
+The garden is east of the bathroom 
+The bathroom is east of the kitchen 
++Q+
+What is east of the bathroom 
++A+
+garden
+
++I+
+291
++S+
+2
+The garden is east of the bedroom 
+The bedroom is east of the kitchen 
++Q+
+What is the bedroom west of 
++A+
+garden
+
++I+
+292
++S+
+2
+The hallway is east of the kitchen 
+The garden is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+garden
+
++I+
+293
++S+
+2
+The kitchen is west of the office 
+The office is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+office
+
++I+
+294
++S+
+2
+The office is south of the bathroom 
+The bathroom is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+295
++S+
+2
+The bathroom is south of the bedroom 
+The bathroom is north of the office 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+296
++S+
+2
+The bathroom is north of the kitchen 
+The hallway is south of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+bathroom
+
++I+
+297
++S+
+2
+The bedroom is east of the office 
+The office is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+office
+
++I+
+298
++S+
+2
+The hallway is north of the kitchen 
+The kitchen is north of the garden 
++Q+
+What is north of the kitchen 
++A+
+hallway
+
++I+
+299
++S+
+2
+The office is east of the bathroom 
+The kitchen is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+kitchen
+
++I+
+300
++S+
+2
+The bedroom is east of the bathroom 
+The hallway is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+hallway
+
++I+
+301
++S+
+2
+The bathroom is north of the hallway 
+The office is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+office
+
++I+
+302
++S+
+2
+The kitchen is west of the hallway 
+The bathroom is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+bathroom
+
++I+
+303
++S+
+2
+The bedroom is west of the hallway 
+The bedroom is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+bedroom
+
++I+
+304
++S+
+2
+The office is north of the bathroom 
+The garden is north of the office 
++Q+
+What is the office south of 
++A+
+garden
+
++I+
+305
++S+
+2
+The bedroom is east of the office 
+The bedroom is west of the garden 
++Q+
+What is east of the office 
++A+
+bedroom
+
++I+
+306
++S+
+2
+The hallway is north of the kitchen 
+The bedroom is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+bedroom
+
++I+
+307
++S+
+2
+The garden is west of the office 
+The bathroom is west of the garden 
++Q+
+What is the office east of 
++A+
+garden
+
++I+
+308
++S+
+2
+The kitchen is east of the hallway 
+The bathroom is east of the kitchen 
++Q+
+What is the hallway west of 
++A+
+kitchen
+
++I+
+309
++S+
+2
+The garden is west of the bathroom 
+The office is west of the garden 
++Q+
+What is west of the bathroom 
++A+
+garden
+
++I+
+310
++S+
+2
+The office is east of the garden 
+The garden is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+garden
+
++I+
+311
++S+
+2
+The bedroom is east of the office 
+The garden is west of the office 
++Q+
+What is the office west of 
++A+
+bedroom
+
++I+
+312
++S+
+2
+The garden is east of the bedroom 
+The bathroom is east of the garden 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+313
++S+
+2
+The garden is west of the kitchen 
+The bathroom is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+bathroom
+
++I+
+314
++S+
+2
+The kitchen is south of the garden 
+The kitchen is north of the bedroom 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+315
++S+
+2
+The kitchen is west of the hallway 
+The bathroom is east of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+316
++S+
+2
+The bathroom is west of the garden 
+The office is east of the garden 
++Q+
+What is east of the garden 
++A+
+office
+
++I+
+317
++S+
+2
+The garden is west of the hallway 
+The office is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+office
+
++I+
+318
++S+
+2
+The bedroom is east of the garden 
+The office is west of the garden 
++Q+
+What is east of the garden 
++A+
+bedroom
+
++I+
+319
++S+
+2
+The hallway is west of the garden 
+The garden is west of the bathroom 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+320
++S+
+2
+The bathroom is east of the bedroom 
+The bedroom is east of the office 
++Q+
+What is the office west of 
++A+
+bedroom
+
++I+
+321
++S+
+2
+The hallway is east of the bathroom 
+The office is west of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+hallway
+
++I+
+322
++S+
+2
+The bedroom is south of the office 
+The bathroom is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+bathroom
+
++I+
+323
++S+
+2
+The garden is west of the bedroom 
+The office is east of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+garden
+
++I+
+324
++S+
+2
+The bathroom is east of the garden 
+The bedroom is east of the bathroom 
++Q+
+What is the garden west of 
++A+
+bathroom
+
++I+
+325
++S+
+2
+The bedroom is south of the hallway 
+The hallway is south of the garden 
++Q+
+What is south of the garden 
++A+
+hallway
+
++I+
+326
++S+
+2
+The office is south of the bedroom 
+The hallway is south of the office 
++Q+
+What is south of the office 
++A+
+hallway
+
++I+
+327
++S+
+2
+The garden is west of the bedroom 
+The kitchen is west of the garden 
++Q+
+What is the garden east of 
++A+
+kitchen
+
++I+
+328
++S+
+2
+The bathroom is east of the garden 
+The hallway is west of the garden 
++Q+
+What is the garden west of 
++A+
+bathroom
+
++I+
+329
++S+
+2
+The office is east of the bathroom 
+The hallway is west of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+office
+
++I+
+330
++S+
+2
+The hallway is west of the garden 
+The kitchen is west of the hallway 
++Q+
+What is west of the garden 
++A+
+hallway
+
++I+
+331
++S+
+2
+The bathroom is north of the kitchen 
+The bathroom is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+bathroom
+
++I+
+332
++S+
+2
+The hallway is west of the bedroom 
+The bathroom is east of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+333
++S+
+2
+The kitchen is south of the office 
+The kitchen is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+kitchen
+
++I+
+334
++S+
+2
+The garden is north of the hallway 
+The kitchen is north of the garden 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+335
++S+
+2
+The bathroom is west of the office 
+The garden is west of the bathroom 
++Q+
+What is west of the office 
++A+
+bathroom
+
++I+
+336
++S+
+2
+The kitchen is south of the garden 
+The garden is south of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+garden
+
++I+
+337
++S+
+2
+The bathroom is west of the garden 
+The bedroom is west of the bathroom 
++Q+
+What is west of the garden 
++A+
+bathroom
+
++I+
+338
++S+
+2
+The office is north of the hallway 
+The bathroom is north of the office 
++Q+
+What is north of the office 
++A+
+bathroom
+
++I+
+339
++S+
+2
+The garden is east of the office 
+The bedroom is east of the garden 
++Q+
+What is east of the office 
++A+
+garden
+
++I+
+340
++S+
+2
+The office is east of the kitchen 
+The bathroom is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+bathroom
+
++I+
+341
++S+
+2
+The office is north of the garden 
+The garden is north of the bedroom 
++Q+
+What is the garden south of 
++A+
+office
+
++I+
+342
++S+
+2
+The hallway is west of the bedroom 
+The bedroom is west of the bathroom 
++Q+
+What is west of the bedroom 
++A+
+hallway
+
++I+
+343
++S+
+2
+The bedroom is south of the hallway 
+The bathroom is north of the hallway 
++Q+
+What is south of the hallway 
++A+
+bedroom
+
++I+
+344
++S+
+2
+The garden is east of the kitchen 
+The garden is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+garden
+
++I+
+345
++S+
+2
+The kitchen is north of the bathroom 
+The hallway is north of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+hallway
+
++I+
+346
++S+
+2
+The kitchen is west of the garden 
+The garden is west of the office 
++Q+
+What is west of the office 
++A+
+garden
+
++I+
+347
++S+
+2
+The bathroom is east of the office 
+The kitchen is west of the office 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+348
++S+
+2
+The bathroom is south of the garden 
+The garden is south of the office 
++Q+
+What is the garden north of 
++A+
+bathroom
+
++I+
+349
++S+
+2
+The kitchen is north of the garden 
+The garden is north of the office 
++Q+
+What is the office south of 
++A+
+garden
+
++I+
+350
++S+
+2
+The garden is south of the hallway 
+The office is south of the garden 
++Q+
+What is the hallway north of 
++A+
+garden
+
++I+
+351
++S+
+2
+The office is west of the kitchen 
+The hallway is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+hallway
+
++I+
+352
++S+
+2
+The garden is north of the bathroom 
+The bathroom is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+bathroom
+
++I+
+353
++S+
+2
+The bedroom is south of the kitchen 
+The kitchen is south of the garden 
++Q+
+What is the kitchen north of 
++A+
+bedroom
+
++I+
+354
++S+
+2
+The bathroom is north of the kitchen 
+The office is south of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+bathroom
+
++I+
+355
++S+
+2
+The kitchen is south of the office 
+The bedroom is north of the office 
++Q+
+What is north of the office 
++A+
+bedroom
+
++I+
+356
++S+
+2
+The hallway is east of the bathroom 
+The office is west of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+357
++S+
+2
+The kitchen is south of the hallway 
+The office is north of the hallway 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+358
++S+
+2
+The hallway is west of the office 
+The office is west of the bedroom 
++Q+
+What is west of the office 
++A+
+hallway
+
++I+
+359
++S+
+2
+The kitchen is north of the office 
+The bedroom is south of the office 
++Q+
+What is the office north of 
++A+
+bedroom
+
++I+
+360
++S+
+2
+The kitchen is north of the garden 
+The garden is north of the office 
++Q+
+What is north of the garden 
++A+
+kitchen
+
++I+
+361
++S+
+2
+The hallway is west of the garden 
+The hallway is east of the bathroom 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+362
++S+
+2
+The bathroom is east of the kitchen 
+The hallway is west of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bathroom
+
++I+
+363
++S+
+2
+The garden is west of the hallway 
+The kitchen is east of the hallway 
++Q+
+What is the hallway east of 
++A+
+garden
+
++I+
+364
++S+
+2
+The bedroom is north of the bathroom 
+The bedroom is south of the office 
++Q+
+What is south of the office 
++A+
+bedroom
+
++I+
+365
++S+
+2
+The bathroom is east of the office 
+The office is east of the hallway 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+366
++S+
+2
+The hallway is east of the bedroom 
+The hallway is west of the garden 
++Q+
+What is east of the bedroom 
++A+
+hallway
+
++I+
+367
++S+
+2
+The garden is west of the bedroom 
+The bedroom is west of the kitchen 
++Q+
+What is west of the bedroom 
++A+
+garden
+
++I+
+368
++S+
+2
+The kitchen is east of the bathroom 
+The garden is west of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+kitchen
+
++I+
+369
++S+
+2
+The hallway is north of the bathroom 
+The bathroom is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+bathroom
+
++I+
+370
++S+
+2
+The garden is north of the kitchen 
+The bathroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bathroom
+
++I+
+371
++S+
+2
+The hallway is east of the garden 
+The bathroom is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+bathroom
+
++I+
+372
++S+
+2
+The bathroom is east of the hallway 
+The office is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+office
+
++I+
+373
++S+
+2
+The hallway is east of the office 
+The office is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+office
+
++I+
+374
++S+
+2
+The bathroom is north of the kitchen 
+The office is north of the bathroom 
++Q+
+What is north of the kitchen 
++A+
+bathroom
+
++I+
+375
++S+
+2
+The hallway is east of the bathroom 
+The office is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+office
+
++I+
+376
++S+
+2
+The kitchen is east of the office 
+The kitchen is west of the garden 
++Q+
+What is the office west of 
++A+
+kitchen
+
++I+
+377
++S+
+2
+The bedroom is south of the office 
+The garden is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+garden
+
++I+
+378
++S+
+2
+The kitchen is north of the hallway 
+The garden is north of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+garden
+
++I+
+379
++S+
+2
+The garden is south of the bedroom 
+The office is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+office
+
++I+
+380
++S+
+2
+The garden is north of the office 
+The kitchen is south of the office 
++Q+
+What is the office north of 
++A+
+kitchen
+
++I+
+381
++S+
+2
+The office is west of the bedroom 
+The hallway is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+hallway
+
++I+
+382
++S+
+2
+The bathroom is west of the office 
+The kitchen is east of the office 
++Q+
+What is west of the office 
++A+
+bathroom
+
++I+
+383
++S+
+2
+The bedroom is north of the garden 
+The bathroom is south of the garden 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+384
++S+
+2
+The office is north of the bathroom 
+The bedroom is north of the office 
++Q+
+What is north of the bathroom 
++A+
+office
+
++I+
+385
++S+
+2
+The bedroom is east of the garden 
+The office is east of the bedroom 
++Q+
+What is east of the garden 
++A+
+bedroom
+
++I+
+386
++S+
+2
+The hallway is west of the bathroom 
+The bathroom is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+bathroom
+
++I+
+387
++S+
+2
+The hallway is north of the bedroom 
+The bedroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+388
++S+
+2
+The bedroom is south of the hallway 
+The bedroom is north of the office 
++Q+
+What is the office south of 
++A+
+bedroom
+
++I+
+389
++S+
+2
+The hallway is south of the bedroom 
+The garden is north of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+hallway
+
++I+
+390
++S+
+2
+The garden is north of the hallway 
+The kitchen is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+kitchen
+
++I+
+391
++S+
+2
+The bathroom is north of the garden 
+The bedroom is north of the bathroom 
++Q+
+What is north of the garden 
++A+
+bathroom
+
++I+
+392
++S+
+2
+The kitchen is west of the garden 
+The garden is west of the bedroom 
++Q+
+What is west of the garden 
++A+
+kitchen
+
++I+
+393
++S+
+2
+The bedroom is north of the hallway 
+The garden is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+garden
+
++I+
+394
++S+
+2
+The bathroom is east of the office 
+The bedroom is west of the office 
++Q+
+What is the office east of 
++A+
+bedroom
+
++I+
+395
++S+
+2
+The bathroom is north of the garden 
+The hallway is south of the garden 
++Q+
+What is the garden south of 
++A+
+bathroom
+
++I+
+396
++S+
+2
+The bedroom is east of the office 
+The garden is west of the office 
++Q+
+What is the office west of 
++A+
+bedroom
+
++I+
+397
++S+
+2
+The bedroom is west of the bathroom 
+The kitchen is west of the bedroom 
++Q+
+What is west of the bathroom 
++A+
+bedroom
+
++I+
+398
++S+
+2
+The hallway is west of the kitchen 
+The kitchen is west of the office 
++Q+
+What is west of the office 
++A+
+kitchen
+
++I+
+399
++S+
+2
+The hallway is north of the garden 
+The hallway is south of the bedroom 
++Q+
+What is north of the garden 
++A+
+hallway
+
++I+
+400
++S+
+2
+The office is south of the bathroom 
+The office is north of the bedroom 
++Q+
+What is south of the bathroom 
++A+
+office
+
++I+
+401
++S+
+2
+The hallway is east of the office 
+The garden is west of the office 
++Q+
+What is west of the office 
++A+
+garden
+
++I+
+402
++S+
+2
+The hallway is west of the bedroom 
+The hallway is east of the garden 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+403
++S+
+2
+The office is east of the garden 
+The bathroom is east of the office 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+404
++S+
+2
+The bedroom is north of the garden 
+The bathroom is south of the garden 
++Q+
+What is north of the garden 
++A+
+bedroom
+
++I+
+405
++S+
+2
+The hallway is south of the bedroom 
+The garden is north of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+406
++S+
+2
+The bathroom is west of the hallway 
+The hallway is west of the office 
++Q+
+What is west of the hallway 
++A+
+bathroom
+
++I+
+407
++S+
+2
+The garden is east of the bathroom 
+The bedroom is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+bedroom
+
++I+
+408
++S+
+2
+The kitchen is east of the office 
+The bedroom is west of the office 
++Q+
+What is the office east of 
++A+
+bedroom
+
++I+
+409
++S+
+2
+The bathroom is south of the bedroom 
+The garden is south of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+garden
+
++I+
+410
++S+
+2
+The bathroom is north of the office 
+The bedroom is south of the office 
++Q+
+What is north of the office 
++A+
+bathroom
+
++I+
+411
++S+
+2
+The kitchen is north of the garden 
+The hallway is north of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+hallway
+
++I+
+412
++S+
+2
+The office is north of the bathroom 
+The kitchen is south of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+office
+
++I+
+413
++S+
+2
+The bathroom is south of the bedroom 
+The kitchen is north of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+bathroom
+
++I+
+414
++S+
+2
+The kitchen is east of the bathroom 
+The bedroom is west of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+kitchen
+
++I+
+415
++S+
+2
+The garden is north of the office 
+The garden is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+garden
+
++I+
+416
++S+
+2
+The hallway is south of the bathroom 
+The garden is north of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+hallway
+
++I+
+417
++S+
+2
+The bathroom is south of the hallway 
+The office is south of the bathroom 
++Q+
+What is the hallway north of 
++A+
+bathroom
+
++I+
+418
++S+
+2
+The hallway is north of the office 
+The hallway is south of the bathroom 
++Q+
+What is the office south of 
++A+
+hallway
+
++I+
+419
++S+
+2
+The bedroom is east of the hallway 
+The office is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+office
+
++I+
+420
++S+
+2
+The office is east of the kitchen 
+The kitchen is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+kitchen
+
++I+
+421
++S+
+2
+The hallway is north of the office 
+The bedroom is north of the hallway 
++Q+
+What is north of the office 
++A+
+hallway
+
++I+
+422
++S+
+2
+The bedroom is east of the office 
+The kitchen is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+kitchen
+
++I+
+423
++S+
+2
+The office is east of the garden 
+The hallway is west of the garden 
++Q+
+What is the garden west of 
++A+
+office
+
++I+
+424
++S+
+2
+The bedroom is west of the garden 
+The garden is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+garden
+
++I+
+425
++S+
+2
+The bathroom is south of the bedroom 
+The office is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+office
+
++I+
+426
++S+
+2
+The bathroom is north of the hallway 
+The hallway is north of the kitchen 
++Q+
+What is the hallway south of 
++A+
+bathroom
+
++I+
+427
++S+
+2
+The office is north of the bathroom 
+The bathroom is north of the garden 
++Q+
+What is north of the bathroom 
++A+
+office
+
++I+
+428
++S+
+2
+The hallway is south of the garden 
+The kitchen is south of the hallway 
++Q+
+What is the garden north of 
++A+
+hallway
+
++I+
+429
++S+
+2
+The garden is east of the kitchen 
+The bedroom is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+bedroom
+
++I+
+430
++S+
+2
+The kitchen is east of the bedroom 
+The hallway is west of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+kitchen
+
++I+
+431
++S+
+2
+The bedroom is south of the bathroom 
+The office is south of the bedroom 
++Q+
+What is south of the bathroom 
++A+
+bedroom
+
++I+
+432
++S+
+2
+The office is south of the hallway 
+The kitchen is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+kitchen
+
++I+
+433
++S+
+2
+The office is west of the garden 
+The kitchen is west of the office 
++Q+
+What is west of the office 
++A+
+kitchen
+
++I+
+434
++S+
+2
+The garden is north of the kitchen 
+The kitchen is north of the bedroom 
++Q+
+What is north of the kitchen 
++A+
+garden
+
++I+
+435
++S+
+2
+The bathroom is north of the bedroom 
+The garden is south of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+bathroom
+
++I+
+436
++S+
+2
+The bathroom is east of the kitchen 
+The garden is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+garden
+
++I+
+437
++S+
+2
+The bathroom is west of the bedroom 
+The hallway is east of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+bathroom
+
++I+
+438
++S+
+2
+The bedroom is east of the bathroom 
+The kitchen is east of the bedroom 
++Q+
+What is the bathroom west of 
++A+
+bedroom
+
++I+
+439
++S+
+2
+The garden is north of the office 
+The bathroom is north of the garden 
++Q+
+What is the office south of 
++A+
+garden
+
++I+
+440
++S+
+2
+The kitchen is west of the bedroom 
+The bathroom is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+bathroom
+
++I+
+441
++S+
+2
+The hallway is west of the bedroom 
+The kitchen is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+kitchen
+
++I+
+442
++S+
+2
+The bedroom is south of the office 
+The office is south of the hallway 
++Q+
+What is south of the office 
++A+
+bedroom
+
++I+
+443
++S+
+2
+The office is south of the garden 
+The bedroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+444
++S+
+2
+The bathroom is south of the office 
+The hallway is north of the office 
++Q+
+What is south of the office 
++A+
+bathroom
+
++I+
+445
++S+
+2
+The bedroom is east of the bathroom 
+The hallway is east of the bedroom 
++Q+
+What is east of the bathroom 
++A+
+bedroom
+
++I+
+446
++S+
+2
+The garden is west of the office 
+The office is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+office
+
++I+
+447
++S+
+2
+The garden is south of the kitchen 
+The bathroom is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+bathroom
+
++I+
+448
++S+
+2
+The garden is east of the kitchen 
+The garden is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+garden
+
++I+
+449
++S+
+2
+The bedroom is south of the bathroom 
+The garden is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+garden
+
++I+
+450
++S+
+2
+The hallway is north of the office 
+The bathroom is south of the office 
++Q+
+What is north of the office 
++A+
+hallway
+
++I+
+451
++S+
+2
+The bathroom is south of the office 
+The hallway is south of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+hallway
+
++I+
+452
++S+
+2
+The bedroom is south of the garden 
+The office is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+office
+
++I+
+453
++S+
+2
+The garden is east of the hallway 
+The bathroom is east of the garden 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+454
++S+
+2
+The bathroom is north of the bedroom 
+The bedroom is north of the office 
++Q+
+What is the office south of 
++A+
+bedroom
+
++I+
+455
++S+
+2
+The office is west of the kitchen 
+The kitchen is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+456
++S+
+2
+The hallway is south of the kitchen 
+The kitchen is south of the garden 
++Q+
+What is south of the garden 
++A+
+kitchen
+
++I+
+457
++S+
+2
+The bathroom is east of the bedroom 
+The bedroom is east of the hallway 
++Q+
+What is east of the hallway 
++A+
+bedroom
+
++I+
+458
++S+
+2
+The bedroom is south of the kitchen 
+The office is south of the bedroom 
++Q+
+What is south of the kitchen 
++A+
+bedroom
+
++I+
+459
++S+
+2
+The kitchen is west of the office 
+The kitchen is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+kitchen
+
++I+
+460
++S+
+2
+The bedroom is west of the hallway 
+The bedroom is east of the garden 
++Q+
+What is west of the hallway 
++A+
+bedroom
+
++I+
+461
++S+
+2
+The garden is east of the bathroom 
+The kitchen is east of the garden 
++Q+
+What is the garden west of 
++A+
+kitchen
+
++I+
+462
++S+
+2
+The kitchen is west of the bathroom 
+The hallway is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+463
++S+
+2
+The office is west of the garden 
+The kitchen is west of the office 
++Q+
+What is west of the garden 
++A+
+office
+
++I+
+464
++S+
+2
+The office is east of the bathroom 
+The garden is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+garden
+
++I+
+465
++S+
+2
+The office is south of the garden 
+The kitchen is south of the office 
++Q+
+What is the garden north of 
++A+
+office
+
++I+
+466
++S+
+2
+The garden is west of the office 
+The bathroom is east of the office 
++Q+
+What is west of the office 
++A+
+garden
+
++I+
+467
++S+
+2
+The office is west of the bedroom 
+The hallway is east of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+office
+
++I+
+468
++S+
+2
+The hallway is south of the kitchen 
+The kitchen is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+kitchen
+
++I+
+469
++S+
+2
+The kitchen is north of the bathroom 
+The hallway is south of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+hallway
+
++I+
+470
++S+
+2
+The hallway is east of the kitchen 
+The bedroom is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+471
++S+
+2
+The hallway is east of the garden 
+The office is west of the garden 
++Q+
+What is west of the garden 
++A+
+office
+
++I+
+472
++S+
+2
+The bathroom is east of the hallway 
+The office is east of the bathroom 
++Q+
+What is east of the hallway 
++A+
+bathroom
+
++I+
+473
++S+
+2
+The bathroom is east of the garden 
+The hallway is east of the bathroom 
++Q+
+What is the garden west of 
++A+
+bathroom
+
++I+
+474
++S+
+2
+The bedroom is east of the office 
+The office is east of the kitchen 
++Q+
+What is east of the office 
++A+
+bedroom
+
++I+
+475
++S+
+2
+The bathroom is east of the hallway 
+The hallway is east of the office 
++Q+
+What is the office west of 
++A+
+hallway
+
++I+
+476
++S+
+2
+The bathroom is north of the bedroom 
+The kitchen is north of the bathroom 
++Q+
+What is the bedroom south of 
++A+
+bathroom
+
++I+
+477
++S+
+2
+The bathroom is west of the hallway 
+The kitchen is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+kitchen
+
++I+
+478
++S+
+2
+The office is south of the garden 
+The office is north of the kitchen 
++Q+
+What is the garden north of 
++A+
+office
+
++I+
+479
++S+
+2
+The hallway is north of the kitchen 
+The kitchen is north of the garden 
++Q+
+What is north of the garden 
++A+
+kitchen
+
++I+
+480
++S+
+2
+The bedroom is west of the kitchen 
+The bedroom is east of the hallway 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+481
++S+
+2
+The garden is north of the hallway 
+The bathroom is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+bathroom
+
++I+
+482
++S+
+2
+The hallway is north of the kitchen 
+The bathroom is north of the hallway 
++Q+
+What is north of the kitchen 
++A+
+hallway
+
++I+
+483
++S+
+2
+The garden is south of the bedroom 
+The garden is north of the office 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+484
++S+
+2
+The bedroom is west of the kitchen 
+The hallway is west of the bedroom 
++Q+
+What is the kitchen east of 
++A+
+bedroom
+
++I+
+485
++S+
+2
+The garden is east of the hallway 
+The bedroom is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+486
++S+
+2
+The office is north of the hallway 
+The bedroom is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+bedroom
+
++I+
+487
++S+
+2
+The hallway is east of the kitchen 
+The bathroom is west of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+hallway
+
++I+
+488
++S+
+2
+The bathroom is north of the office 
+The office is north of the kitchen 
++Q+
+What is the office south of 
++A+
+bathroom
+
++I+
+489
++S+
+2
+The bathroom is south of the bedroom 
+The hallway is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+hallway
+
++I+
+490
++S+
+2
+The hallway is south of the bedroom 
+The hallway is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+hallway
+
++I+
+491
++S+
+2
+The hallway is west of the bathroom 
+The garden is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+garden
+
++I+
+492
++S+
+2
+The garden is south of the kitchen 
+The hallway is north of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+garden
+
++I+
+493
++S+
+2
+The office is south of the garden 
+The garden is south of the hallway 
++Q+
+What is south of the garden 
++A+
+office
+
++I+
+494
++S+
+2
+The hallway is west of the office 
+The bedroom is east of the office 
++Q+
+What is the office west of 
++A+
+bedroom
+
++I+
+495
++S+
+2
+The hallway is north of the bedroom 
+The hallway is south of the kitchen 
++Q+
+What is north of the bedroom 
++A+
+hallway
+
++I+
+496
++S+
+2
+The office is north of the bedroom 
+The kitchen is south of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+office
+
++I+
+497
++S+
+2
+The bedroom is south of the office 
+The bedroom is north of the kitchen 
++Q+
+What is the office north of 
++A+
+bedroom
+
++I+
+498
++S+
+2
+The kitchen is west of the office 
+The kitchen is east of the garden 
++Q+
+What is the office east of 
++A+
+kitchen
+
++I+
+499
++S+
+2
+The hallway is north of the bathroom 
+The bathroom is north of the bedroom 
++Q+
+What is the bathroom south of 
++A+
+hallway
+
++I+
+500
++S+
+2
+The garden is east of the hallway 
+The bedroom is east of the garden 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+501
++S+
+2
+The kitchen is east of the hallway 
+The office is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+office
+
++I+
+502
++S+
+2
+The bedroom is north of the garden 
+The hallway is south of the garden 
++Q+
+What is north of the garden 
++A+
+bedroom
+
++I+
+503
++S+
+2
+The hallway is west of the bathroom 
+The bathroom is west of the bedroom 
++Q+
+What is the bathroom east of 
++A+
+hallway
+
++I+
+504
++S+
+2
+The bedroom is east of the hallway 
+The office is east of the bedroom 
++Q+
+What is the hallway west of 
++A+
+bedroom
+
++I+
+505
++S+
+2
+The garden is west of the bathroom 
+The kitchen is east of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+garden
+
++I+
+506
++S+
+2
+The bedroom is north of the office 
+The garden is south of the office 
++Q+
+What is north of the office 
++A+
+bedroom
+
++I+
+507
++S+
+2
+The bedroom is south of the hallway 
+The kitchen is north of the hallway 
++Q+
+What is the hallway north of 
++A+
+bedroom
+
++I+
+508
++S+
+2
+The garden is south of the kitchen 
+The bathroom is south of the garden 
++Q+
+What is the garden north of 
++A+
+bathroom
+
++I+
+509
++S+
+2
+The bathroom is east of the hallway 
+The office is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+office
+
++I+
+510
++S+
+2
+The kitchen is north of the bathroom 
+The kitchen is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+kitchen
+
++I+
+511
++S+
+2
+The hallway is west of the office 
+The office is west of the garden 
++Q+
+What is the office east of 
++A+
+hallway
+
++I+
+512
++S+
+2
+The bedroom is north of the garden 
+The hallway is south of the garden 
++Q+
+What is the garden north of 
++A+
+hallway
+
++I+
+513
++S+
+2
+The garden is north of the office 
+The office is north of the bedroom 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+514
++S+
+2
+The kitchen is north of the hallway 
+The garden is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+garden
+
++I+
+515
++S+
+2
+The office is south of the bedroom 
+The bathroom is south of the office 
++Q+
+What is the office north of 
++A+
+bathroom
+
++I+
+516
++S+
+2
+The kitchen is east of the hallway 
+The garden is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+garden
+
++I+
+517
++S+
+2
+The office is north of the bathroom 
+The kitchen is south of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+office
+
++I+
+518
++S+
+2
+The office is north of the hallway 
+The garden is north of the office 
++Q+
+What is north of the hallway 
++A+
+office
+
++I+
+519
++S+
+2
+The bathroom is east of the garden 
+The hallway is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+hallway
+
++I+
+520
++S+
+2
+The hallway is north of the bedroom 
+The bathroom is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+521
++S+
+2
+The kitchen is east of the bathroom 
+The hallway is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+hallway
+
++I+
+522
++S+
+2
+The hallway is south of the bedroom 
+The kitchen is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+kitchen
+
++I+
+523
++S+
+2
+The garden is west of the bedroom 
+The bathroom is east of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+garden
+
++I+
+524
++S+
+2
+The garden is south of the office 
+The kitchen is north of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+525
++S+
+2
+The bedroom is south of the bathroom 
+The garden is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+garden
+
++I+
+526
++S+
+2
+The bedroom is north of the garden 
+The office is south of the garden 
++Q+
+What is south of the garden 
++A+
+office
+
++I+
+527
++S+
+2
+The office is east of the garden 
+The bathroom is west of the garden 
++Q+
+What is west of the garden 
++A+
+bathroom
+
++I+
+528
++S+
+2
+The bedroom is west of the hallway 
+The garden is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+garden
+
++I+
+529
++S+
+2
+The hallway is south of the office 
+The office is south of the bedroom 
++Q+
+What is south of the office 
++A+
+hallway
+
++I+
+530
++S+
+2
+The kitchen is south of the bathroom 
+The kitchen is north of the garden 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+531
++S+
+2
+The hallway is west of the bedroom 
+The garden is west of the hallway 
++Q+
+What is west of the bedroom 
++A+
+hallway
+
++I+
+532
++S+
+2
+The bedroom is east of the bathroom 
+The office is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+office
+
++I+
+533
++S+
+2
+The hallway is west of the kitchen 
+The kitchen is west of the garden 
++Q+
+What is the garden east of 
++A+
+kitchen
+
++I+
+534
++S+
+2
+The bathroom is north of the garden 
+The garden is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+garden
+
++I+
+535
++S+
+2
+The bedroom is east of the hallway 
+The kitchen is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+kitchen
+
++I+
+536
++S+
+2
+The kitchen is east of the hallway 
+The garden is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+garden
+
++I+
+537
++S+
+2
+The hallway is south of the garden 
+The bedroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+538
++S+
+2
+The office is east of the bedroom 
+The bedroom is east of the garden 
++Q+
+What is east of the garden 
++A+
+bedroom
+
++I+
+539
++S+
+2
+The kitchen is east of the hallway 
+The bedroom is west of the hallway 
++Q+
+What is the hallway west of 
++A+
+kitchen
+
++I+
+540
++S+
+2
+The hallway is west of the bedroom 
+The office is west of the hallway 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+541
++S+
+2
+The hallway is north of the bathroom 
+The bedroom is north of the hallway 
++Q+
+What is the bathroom south of 
++A+
+hallway
+
++I+
+542
++S+
+2
+The garden is north of the kitchen 
+The office is south of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+garden
+
++I+
+543
++S+
+2
+The garden is east of the kitchen 
+The garden is west of the bathroom 
++Q+
+What is east of the kitchen 
++A+
+garden
+
++I+
+544
++S+
+2
+The garden is north of the bathroom 
+The office is south of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+office
+
++I+
+545
++S+
+2
+The kitchen is west of the hallway 
+The hallway is west of the office 
++Q+
+What is the office east of 
++A+
+hallway
+
++I+
+546
++S+
+2
+The office is east of the bedroom 
+The hallway is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+547
++S+
+2
+The office is north of the hallway 
+The bedroom is south of the hallway 
++Q+
+What is north of the hallway 
++A+
+office
+
++I+
+548
++S+
+2
+The bedroom is west of the kitchen 
+The office is west of the bedroom 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+549
++S+
+2
+The hallway is south of the bathroom 
+The hallway is north of the kitchen 
++Q+
+What is south of the bathroom 
++A+
+hallway
+
++I+
+550
++S+
+2
+The office is east of the hallway 
+The garden is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+office
+
++I+
+551
++S+
+2
+The bathroom is west of the hallway 
+The bedroom is east of the hallway 
++Q+
+What is the hallway east of 
++A+
+bathroom
+
++I+
+552
++S+
+2
+The hallway is north of the bedroom 
+The bedroom is north of the kitchen 
++Q+
+What is north of the bedroom 
++A+
+hallway
+
++I+
+553
++S+
+2
+The bedroom is north of the garden 
+The office is north of the bedroom 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+554
++S+
+2
+The office is south of the bedroom 
+The hallway is north of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+office
+
++I+
+555
++S+
+2
+The bathroom is east of the garden 
+The garden is east of the hallway 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+556
++S+
+2
+The kitchen is west of the garden 
+The office is east of the garden 
++Q+
+What is west of the garden 
++A+
+kitchen
+
++I+
+557
++S+
+2
+The garden is west of the bathroom 
+The bathroom is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+bathroom
+
++I+
+558
++S+
+2
+The garden is north of the bathroom 
+The office is south of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+garden
+
++I+
+559
++S+
+2
+The office is west of the garden 
+The kitchen is east of the garden 
++Q+
+What is the garden west of 
++A+
+kitchen
+
++I+
+560
++S+
+2
+The bathroom is north of the bedroom 
+The bedroom is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+bedroom
+
++I+
+561
++S+
+2
+The garden is west of the office 
+The kitchen is east of the office 
++Q+
+What is east of the office 
++A+
+kitchen
+
++I+
+562
++S+
+2
+The garden is east of the bathroom 
+The hallway is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+hallway
+
++I+
+563
++S+
+2
+The hallway is west of the kitchen 
+The hallway is east of the garden 
++Q+
+What is the garden west of 
++A+
+hallway
+
++I+
+564
++S+
+2
+The bedroom is east of the kitchen 
+The garden is west of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bedroom
+
++I+
+565
++S+
+2
+The kitchen is east of the office 
+The bedroom is west of the office 
++Q+
+What is the office west of 
++A+
+kitchen
+
++I+
+566
++S+
+2
+The hallway is west of the bedroom 
+The bathroom is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+bathroom
+
++I+
+567
++S+
+2
+The bathroom is east of the office 
+The bathroom is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+bathroom
+
++I+
+568
++S+
+2
+The bedroom is north of the garden 
+The garden is north of the hallway 
++Q+
+What is north of the garden 
++A+
+bedroom
+
++I+
+569
++S+
+2
+The kitchen is north of the hallway 
+The kitchen is south of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+kitchen
+
++I+
+570
++S+
+2
+The garden is east of the office 
+The kitchen is west of the office 
++Q+
+What is the office east of 
++A+
+kitchen
+
++I+
+571
++S+
+2
+The office is north of the kitchen 
+The bathroom is north of the office 
++Q+
+What is north of the office 
++A+
+bathroom
+
++I+
+572
++S+
+2
+The bedroom is north of the hallway 
+The hallway is north of the office 
++Q+
+What is north of the office 
++A+
+hallway
+
++I+
+573
++S+
+2
+The bathroom is east of the garden 
+The bedroom is west of the garden 
++Q+
+What is west of the garden 
++A+
+bedroom
+
++I+
+574
++S+
+2
+The office is east of the kitchen 
+The bedroom is west of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+office
+
++I+
+575
++S+
+2
+The bathroom is east of the bedroom 
+The garden is west of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+bathroom
+
++I+
+576
++S+
+2
+The kitchen is south of the bathroom 
+The office is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+office
+
++I+
+577
++S+
+2
+The office is south of the bathroom 
+The hallway is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+hallway
+
++I+
+578
++S+
+2
+The office is south of the kitchen 
+The garden is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+garden
+
++I+
+579
++S+
+2
+The hallway is north of the office 
+The kitchen is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+kitchen
+
++I+
+580
++S+
+2
+The office is east of the bedroom 
+The bedroom is east of the bathroom 
++Q+
+What is the bedroom west of 
++A+
+office
+
++I+
+581
++S+
+2
+The hallway is east of the kitchen 
+The hallway is west of the garden 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+582
++S+
+2
+The office is south of the bedroom 
+The kitchen is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+kitchen
+
++I+
+583
++S+
+2
+The office is east of the hallway 
+The kitchen is west of the hallway 
++Q+
+What is the hallway west of 
++A+
+office
+
++I+
+584
++S+
+2
+The garden is north of the bedroom 
+The hallway is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+585
++S+
+2
+The garden is west of the bedroom 
+The bathroom is west of the garden 
++Q+
+What is west of the bedroom 
++A+
+garden
+
++I+
+586
++S+
+2
+The office is south of the bedroom 
+The hallway is south of the office 
++Q+
+What is south of the office 
++A+
+hallway
+
++I+
+587
++S+
+2
+The office is south of the kitchen 
+The kitchen is south of the garden 
++Q+
+What is south of the garden 
++A+
+kitchen
+
++I+
+588
++S+
+2
+The bedroom is west of the kitchen 
+The office is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+office
+
++I+
+589
++S+
+2
+The office is south of the kitchen 
+The bathroom is north of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+office
+
++I+
+590
++S+
+2
+The bathroom is east of the kitchen 
+The kitchen is east of the office 
++Q+
+What is the kitchen west of 
++A+
+bathroom
+
++I+
+591
++S+
+2
+The office is south of the garden 
+The hallway is south of the office 
++Q+
+What is the office north of 
++A+
+hallway
+
++I+
+592
++S+
+2
+The hallway is east of the bathroom 
+The bathroom is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+bathroom
+
++I+
+593
++S+
+2
+The office is east of the hallway 
+The hallway is east of the kitchen 
++Q+
+What is east of the hallway 
++A+
+office
+
++I+
+594
++S+
+2
+The bedroom is west of the office 
+The kitchen is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+595
++S+
+2
+The garden is east of the office 
+The bedroom is west of the office 
++Q+
+What is the office west of 
++A+
+garden
+
++I+
+596
++S+
+2
+The bedroom is east of the office 
+The hallway is east of the bedroom 
++Q+
+What is east of the office 
++A+
+bedroom
+
++I+
+597
++S+
+2
+The office is west of the bathroom 
+The garden is east of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+office
+
++I+
+598
++S+
+2
+The kitchen is east of the garden 
+The bathroom is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bathroom
+
++I+
+599
++S+
+2
+The bedroom is south of the garden 
+The bathroom is north of the garden 
++Q+
+What is the garden south of 
++A+
+bathroom
+
++I+
+600
++S+
+2
+The hallway is east of the office 
+The hallway is west of the bathroom 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+601
++S+
+2
+The bathroom is north of the hallway 
+The kitchen is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+kitchen
+
++I+
+602
++S+
+2
+The kitchen is south of the bedroom 
+The hallway is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+hallway
+
++I+
+603
++S+
+2
+The garden is south of the kitchen 
+The garden is north of the office 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+604
++S+
+2
+The kitchen is south of the bathroom 
+The bedroom is south of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+bedroom
+
++I+
+605
++S+
+2
+The hallway is west of the garden 
+The garden is west of the kitchen 
++Q+
+What is west of the garden 
++A+
+hallway
+
++I+
+606
++S+
+2
+The office is east of the kitchen 
+The bedroom is east of the office 
++Q+
+What is the kitchen west of 
++A+
+office
+
++I+
+607
++S+
+2
+The kitchen is north of the bedroom 
+The bedroom is north of the bathroom 
++Q+
+What is north of the bedroom 
++A+
+kitchen
+
++I+
+608
++S+
+2
+The hallway is north of the bedroom 
+The hallway is south of the kitchen 
++Q+
+What is the bedroom south of 
++A+
+hallway
+
++I+
+609
++S+
+2
+The garden is east of the kitchen 
+The hallway is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+hallway
+
++I+
+610
++S+
+2
+The kitchen is south of the bedroom 
+The kitchen is north of the hallway 
++Q+
+What is the bedroom north of 
++A+
+kitchen
+
++I+
+611
++S+
+2
+The bedroom is south of the garden 
+The office is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+office
+
++I+
+612
++S+
+2
+The garden is west of the office 
+The hallway is east of the office 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+613
++S+
+2
+The hallway is south of the office 
+The garden is south of the hallway 
++Q+
+What is the office north of 
++A+
+hallway
+
++I+
+614
++S+
+2
+The office is east of the hallway 
+The hallway is east of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+hallway
+
++I+
+615
++S+
+2
+The garden is west of the office 
+The hallway is east of the office 
++Q+
+What is the office east of 
++A+
+garden
+
++I+
+616
++S+
+2
+The office is north of the bedroom 
+The bathroom is south of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+office
+
++I+
+617
++S+
+2
+The bedroom is north of the garden 
+The kitchen is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+kitchen
+
++I+
+618
++S+
+2
+The garden is north of the office 
+The hallway is south of the office 
++Q+
+What is south of the office 
++A+
+hallway
+
++I+
+619
++S+
+2
+The office is east of the kitchen 
+The bathroom is east of the office 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+620
++S+
+2
+The kitchen is east of the garden 
+The bedroom is west of the garden 
++Q+
+What is the garden east of 
++A+
+bedroom
+
++I+
+621
++S+
+2
+The office is north of the kitchen 
+The bathroom is north of the office 
++Q+
+What is the kitchen south of 
++A+
+office
+
++I+
+622
++S+
+2
+The garden is south of the office 
+The kitchen is north of the office 
++Q+
+What is the office south of 
++A+
+kitchen
+
++I+
+623
++S+
+2
+The bathroom is south of the office 
+The garden is north of the office 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+624
++S+
+2
+The bathroom is west of the kitchen 
+The bathroom is east of the office 
++Q+
+What is west of the kitchen 
++A+
+bathroom
+
++I+
+625
++S+
+2
+The office is east of the bedroom 
+The kitchen is east of the office 
++Q+
+What is east of the bedroom 
++A+
+office
+
++I+
+626
++S+
+2
+The bedroom is north of the garden 
+The office is south of the garden 
++Q+
+What is the garden north of 
++A+
+office
+
++I+
+627
++S+
+2
+The hallway is west of the bedroom 
+The bathroom is east of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+bathroom
+
++I+
+628
++S+
+2
+The bedroom is south of the bathroom 
+The office is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+office
+
++I+
+629
++S+
+2
+The garden is east of the kitchen 
+The bedroom is west of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+garden
+
++I+
+630
++S+
+2
+The bathroom is west of the bedroom 
+The bathroom is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+bathroom
+
++I+
+631
++S+
+2
+The bathroom is south of the office 
+The bedroom is north of the office 
++Q+
+What is the office north of 
++A+
+bathroom
+
++I+
+632
++S+
+2
+The hallway is west of the kitchen 
+The bathroom is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+bathroom
+
++I+
+633
++S+
+2
+The garden is east of the office 
+The bedroom is west of the office 
++Q+
+What is the office east of 
++A+
+bedroom
+
++I+
+634
++S+
+2
+The bedroom is east of the office 
+The office is east of the bathroom 
++Q+
+What is east of the office 
++A+
+bedroom
+
++I+
+635
++S+
+2
+The bedroom is north of the bathroom 
+The bedroom is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+bedroom
+
++I+
+636
++S+
+2
+The bedroom is east of the kitchen 
+The office is west of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bedroom
+
++I+
+637
++S+
+2
+The bathroom is east of the garden 
+The kitchen is west of the garden 
++Q+
+What is the garden east of 
++A+
+kitchen
+
++I+
+638
++S+
+2
+The kitchen is west of the office 
+The office is west of the bedroom 
++Q+
+What is the office east of 
++A+
+kitchen
+
++I+
+639
++S+
+2
+The kitchen is east of the bedroom 
+The kitchen is west of the hallway 
++Q+
+What is east of the bedroom 
++A+
+kitchen
+
++I+
+640
++S+
+2
+The kitchen is east of the garden 
+The bedroom is west of the garden 
++Q+
+What is the garden east of 
++A+
+bedroom
+
++I+
+641
++S+
+2
+The office is west of the hallway 
+The bedroom is east of the hallway 
++Q+
+What is the hallway east of 
++A+
+office
+
++I+
+642
++S+
+2
+The office is west of the bedroom 
+The kitchen is west of the office 
++Q+
+What is the bedroom east of 
++A+
+office
+
++I+
+643
++S+
+2
+The garden is east of the hallway 
+The office is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+644
++S+
+2
+The bedroom is west of the bathroom 
+The garden is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+garden
+
++I+
+645
++S+
+2
+The office is east of the hallway 
+The office is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+office
+
++I+
+646
++S+
+2
+The office is east of the hallway 
+The bedroom is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+bedroom
+
++I+
+647
++S+
+2
+The bathroom is east of the bedroom 
+The kitchen is west of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+bathroom
+
++I+
+648
++S+
+2
+The office is north of the garden 
+The garden is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+garden
+
++I+
+649
++S+
+2
+The garden is north of the bedroom 
+The hallway is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+hallway
+
++I+
+650
++S+
+2
+The office is south of the hallway 
+The garden is north of the hallway 
++Q+
+What is the hallway north of 
++A+
+office
+
++I+
+651
++S+
+2
+The office is west of the bedroom 
+The garden is east of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+garden
+
++I+
+652
++S+
+2
+The bedroom is north of the hallway 
+The kitchen is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+653
++S+
+2
+The hallway is west of the garden 
+The office is east of the garden 
++Q+
+What is west of the garden 
++A+
+hallway
+
++I+
+654
++S+
+2
+The bathroom is west of the office 
+The hallway is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+hallway
+
++I+
+655
++S+
+2
+The hallway is east of the office 
+The office is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+office
+
++I+
+656
++S+
+2
+The garden is south of the bathroom 
+The bedroom is south of the garden 
++Q+
+What is the garden north of 
++A+
+bedroom
+
++I+
+657
++S+
+2
+The kitchen is east of the garden 
+The garden is east of the bedroom 
++Q+
+What is east of the garden 
++A+
+kitchen
+
++I+
+658
++S+
+2
+The garden is south of the hallway 
+The bedroom is south of the garden 
++Q+
+What is south of the hallway 
++A+
+garden
+
++I+
+659
++S+
+2
+The garden is east of the kitchen 
+The garden is west of the bedroom 
++Q+
+What is east of the kitchen 
++A+
+garden
+
++I+
+660
++S+
+2
+The kitchen is west of the garden 
+The kitchen is east of the office 
++Q+
+What is the garden east of 
++A+
+kitchen
+
++I+
+661
++S+
+2
+The garden is east of the bathroom 
+The office is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+office
+
++I+
+662
++S+
+2
+The bedroom is south of the office 
+The office is south of the hallway 
++Q+
+What is south of the office 
++A+
+bedroom
+
++I+
+663
++S+
+2
+The bathroom is east of the garden 
+The bedroom is east of the bathroom 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+664
++S+
+2
+The bedroom is south of the garden 
+The office is north of the garden 
++Q+
+What is the garden south of 
++A+
+office
+
++I+
+665
++S+
+2
+The kitchen is south of the hallway 
+The hallway is south of the bedroom 
++Q+
+What is the hallway north of 
++A+
+kitchen
+
++I+
+666
++S+
+2
+The garden is south of the office 
+The bedroom is south of the garden 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+667
++S+
+2
+The garden is west of the office 
+The bathroom is east of the office 
++Q+
+What is the office east of 
++A+
+garden
+
++I+
+668
++S+
+2
+The hallway is north of the garden 
+The office is south of the garden 
++Q+
+What is the garden south of 
++A+
+hallway
+
++I+
+669
++S+
+2
+The hallway is north of the garden 
+The garden is north of the bedroom 
++Q+
+What is north of the garden 
++A+
+hallway
+
++I+
+670
++S+
+2
+The bathroom is west of the garden 
+The office is east of the garden 
++Q+
+What is west of the garden 
++A+
+bathroom
+
++I+
+671
++S+
+2
+The kitchen is west of the bedroom 
+The garden is east of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+garden
+
++I+
+672
++S+
+2
+The kitchen is south of the garden 
+The hallway is south of the kitchen 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+673
++S+
+2
+The kitchen is north of the garden 
+The bathroom is north of the kitchen 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+674
++S+
+2
+The bedroom is east of the office 
+The kitchen is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+kitchen
+
++I+
+675
++S+
+2
+The bathroom is west of the garden 
+The bedroom is east of the garden 
++Q+
+What is the garden west of 
++A+
+bedroom
+
++I+
+676
++S+
+2
+The garden is north of the kitchen 
+The hallway is north of the garden 
++Q+
+What is north of the kitchen 
++A+
+garden
+
++I+
+677
++S+
+2
+The bedroom is north of the bathroom 
+The bathroom is north of the office 
++Q+
+What is north of the bathroom 
++A+
+bedroom
+
++I+
+678
++S+
+2
+The garden is north of the bedroom 
+The bedroom is north of the bathroom 
++Q+
+What is the bedroom south of 
++A+
+garden
+
++I+
+679
++S+
+2
+The office is south of the bedroom 
+The kitchen is south of the office 
++Q+
+What is south of the bedroom 
++A+
+office
+
++I+
+680
++S+
+2
+The garden is west of the office 
+The hallway is east of the office 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+681
++S+
+2
+The bedroom is north of the kitchen 
+The office is south of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+office
+
++I+
+682
++S+
+2
+The garden is north of the hallway 
+The hallway is north of the bathroom 
++Q+
+What is the hallway south of 
++A+
+garden
+
++I+
+683
++S+
+2
+The office is north of the hallway 
+The garden is south of the hallway 
++Q+
+What is north of the hallway 
++A+
+office
+
++I+
+684
++S+
+2
+The office is east of the bathroom 
+The office is west of the hallway 
++Q+
+What is the hallway east of 
++A+
+office
+
++I+
+685
++S+
+2
+The garden is east of the bathroom 
+The kitchen is west of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+garden
+
++I+
+686
++S+
+2
+The office is east of the bedroom 
+The hallway is east of the office 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+687
++S+
+2
+The hallway is west of the office 
+The office is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+office
+
++I+
+688
++S+
+2
+The kitchen is south of the office 
+The kitchen is north of the garden 
++Q+
+What is north of the garden 
++A+
+kitchen
+
++I+
+689
++S+
+2
+The bedroom is south of the kitchen 
+The bedroom is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+bedroom
+
++I+
+690
++S+
+2
+The hallway is north of the garden 
+The office is south of the garden 
++Q+
+What is south of the garden 
++A+
+office
+
++I+
+691
++S+
+2
+The bathroom is south of the kitchen 
+The kitchen is south of the bedroom 
++Q+
+What is south of the kitchen 
++A+
+bathroom
+
++I+
+692
++S+
+2
+The kitchen is east of the bathroom 
+The garden is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+garden
+
++I+
+693
++S+
+2
+The kitchen is north of the hallway 
+The kitchen is south of the bedroom 
++Q+
+What is the hallway south of 
++A+
+kitchen
+
++I+
+694
++S+
+2
+The hallway is east of the bedroom 
+The office is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+office
+
++I+
+695
++S+
+2
+The bedroom is east of the office 
+The office is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+office
+
++I+
+696
++S+
+2
+The kitchen is south of the office 
+The bathroom is north of the office 
++Q+
+What is the office north of 
++A+
+kitchen
+
++I+
+697
++S+
+2
+The bedroom is east of the hallway 
+The garden is east of the bedroom 
++Q+
+What is the hallway west of 
++A+
+bedroom
+
++I+
+698
++S+
+2
+The bathroom is south of the garden 
+The office is south of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+office
+
++I+
+699
++S+
+2
+The kitchen is west of the bedroom 
+The office is west of the kitchen 
++Q+
+What is the bedroom east of 
++A+
+kitchen
+
++I+
+700
++S+
+2
+The hallway is west of the office 
+The office is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+office
+
++I+
+701
++S+
+2
+The office is east of the bedroom 
+The kitchen is east of the office 
++Q+
+What is east of the bedroom 
++A+
+office
+
++I+
+702
++S+
+2
+The hallway is north of the bedroom 
+The bedroom is north of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+bedroom
+
++I+
+703
++S+
+2
+The bedroom is south of the office 
+The hallway is south of the bedroom 
++Q+
+What is south of the office 
++A+
+bedroom
+
++I+
+704
++S+
+2
+The bedroom is east of the kitchen 
+The garden is west of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+bedroom
+
++I+
+705
++S+
+2
+The bathroom is west of the office 
+The hallway is east of the office 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+706
++S+
+2
+The kitchen is north of the garden 
+The garden is north of the bedroom 
++Q+
+What is north of the garden 
++A+
+kitchen
+
++I+
+707
++S+
+2
+The garden is south of the office 
+The hallway is north of the office 
++Q+
+What is the office south of 
++A+
+hallway
+
++I+
+708
++S+
+2
+The kitchen is east of the garden 
+The garden is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+garden
+
++I+
+709
++S+
+2
+The bedroom is north of the hallway 
+The office is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+office
+
++I+
+710
++S+
+2
+The hallway is north of the bathroom 
+The bathroom is north of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+bathroom
+
++I+
+711
++S+
+2
+The office is west of the hallway 
+The bathroom is west of the office 
++Q+
+What is the office east of 
++A+
+bathroom
+
++I+
+712
++S+
+2
+The garden is north of the bathroom 
+The garden is south of the office 
++Q+
+What is the bathroom south of 
++A+
+garden
+
++I+
+713
++S+
+2
+The kitchen is south of the hallway 
+The hallway is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+714
++S+
+2
+The garden is west of the office 
+The bedroom is east of the office 
++Q+
+What is east of the office 
++A+
+bedroom
+
++I+
+715
++S+
+2
+The bedroom is north of the garden 
+The office is south of the garden 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+716
++S+
+2
+The bathroom is north of the hallway 
+The hallway is north of the kitchen 
++Q+
+What is north of the hallway 
++A+
+bathroom
+
++I+
+717
++S+
+2
+The garden is west of the hallway 
+The bathroom is east of the hallway 
++Q+
+What is the hallway east of 
++A+
+garden
+
++I+
+718
++S+
+2
+The bedroom is east of the hallway 
+The kitchen is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+719
++S+
+2
+The kitchen is east of the bathroom 
+The garden is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+garden
+
++I+
+720
++S+
+2
+The garden is south of the bathroom 
+The hallway is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+hallway
+
++I+
+721
++S+
+2
+The hallway is south of the kitchen 
+The bathroom is north of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+hallway
+
++I+
+722
++S+
+2
+The bedroom is south of the kitchen 
+The kitchen is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+723
++S+
+2
+The hallway is east of the garden 
+The bedroom is west of the garden 
++Q+
+What is the garden west of 
++A+
+hallway
+
++I+
+724
++S+
+2
+The kitchen is east of the bedroom 
+The bedroom is east of the hallway 
++Q+
+What is east of the hallway 
++A+
+bedroom
+
++I+
+725
++S+
+2
+The office is south of the kitchen 
+The hallway is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+hallway
+
++I+
+726
++S+
+2
+The bedroom is south of the hallway 
+The office is north of the hallway 
++Q+
+What is the hallway north of 
++A+
+bedroom
+
++I+
+727
++S+
+2
+The office is west of the bathroom 
+The kitchen is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+kitchen
+
++I+
+728
++S+
+2
+The garden is south of the office 
+The hallway is south of the garden 
++Q+
+What is south of the garden 
++A+
+hallway
+
++I+
+729
++S+
+2
+The bedroom is east of the garden 
+The garden is east of the hallway 
++Q+
+What is east of the garden 
++A+
+bedroom
+
++I+
+730
++S+
+2
+The bedroom is south of the office 
+The bathroom is south of the bedroom 
++Q+
+What is south of the office 
++A+
+bedroom
+
++I+
+731
++S+
+2
+The hallway is south of the bathroom 
+The bedroom is north of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+bedroom
+
++I+
+732
++S+
+2
+The hallway is west of the office 
+The kitchen is east of the office 
++Q+
+What is the office west of 
++A+
+kitchen
+
++I+
+733
++S+
+2
+The garden is west of the office 
+The hallway is west of the garden 
++Q+
+What is west of the garden 
++A+
+hallway
+
++I+
+734
++S+
+2
+The bathroom is north of the bedroom 
+The bedroom is north of the kitchen 
++Q+
+What is the bedroom south of 
++A+
+bathroom
+
++I+
+735
++S+
+2
+The kitchen is north of the hallway 
+The garden is north of the kitchen 
++Q+
+What is north of the hallway 
++A+
+kitchen
+
++I+
+736
++S+
+2
+The hallway is east of the bathroom 
+The garden is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+garden
+
++I+
+737
++S+
+2
+The bedroom is east of the hallway 
+The bedroom is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+738
++S+
+2
+The kitchen is east of the office 
+The bathroom is west of the office 
++Q+
+What is the office west of 
++A+
+kitchen
+
++I+
+739
++S+
+2
+The garden is north of the hallway 
+The office is south of the hallway 
++Q+
+What is the hallway south of 
++A+
+garden
+
++I+
+740
++S+
+2
+The hallway is west of the garden 
+The office is east of the garden 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+741
++S+
+2
+The bathroom is east of the bedroom 
+The garden is west of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+bathroom
+
++I+
+742
++S+
+2
+The kitchen is north of the bedroom 
+The office is south of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+kitchen
+
++I+
+743
++S+
+2
+The bathroom is west of the bedroom 
+The office is east of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+bathroom
+
++I+
+744
++S+
+2
+The hallway is north of the bedroom 
+The office is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+office
+
++I+
+745
++S+
+2
+The hallway is south of the bathroom 
+The bathroom is south of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+bathroom
+
++I+
+746
++S+
+2
+The garden is west of the bathroom 
+The bathroom is west of the bedroom 
++Q+
+What is the bathroom east of 
++A+
+garden
+
++I+
+747
++S+
+2
+The garden is east of the kitchen 
+The garden is west of the hallway 
++Q+
+What is east of the kitchen 
++A+
+garden
+
++I+
+748
++S+
+2
+The bedroom is east of the hallway 
+The bedroom is west of the office 
++Q+
+What is west of the office 
++A+
+bedroom
+
++I+
+749
++S+
+2
+The hallway is east of the kitchen 
+The bedroom is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+bedroom
+
++I+
+750
++S+
+2
+The bathroom is east of the garden 
+The bedroom is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+bedroom
+
++I+
+751
++S+
+2
+The bathroom is south of the bedroom 
+The bathroom is north of the office 
++Q+
+What is the office south of 
++A+
+bathroom
+
++I+
+752
++S+
+2
+The garden is west of the kitchen 
+The office is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+office
+
++I+
+753
++S+
+2
+The bedroom is north of the garden 
+The bathroom is south of the garden 
++Q+
+What is north of the garden 
++A+
+bedroom
+
++I+
+754
++S+
+2
+The bathroom is west of the bedroom 
+The kitchen is west of the bathroom 
++Q+
+What is west of the bedroom 
++A+
+bathroom
+
++I+
+755
++S+
+2
+The kitchen is south of the bathroom 
+The kitchen is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+kitchen
+
++I+
+756
++S+
+2
+The office is west of the hallway 
+The kitchen is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+kitchen
+
++I+
+757
++S+
+2
+The kitchen is west of the bathroom 
+The hallway is west of the kitchen 
++Q+
+What is the bathroom east of 
++A+
+kitchen
+
++I+
+758
++S+
+2
+The bathroom is east of the office 
+The bathroom is west of the garden 
++Q+
+What is the office west of 
++A+
+bathroom
+
++I+
+759
++S+
+2
+The bathroom is west of the kitchen 
+The office is east of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+bathroom
+
++I+
+760
++S+
+2
+The garden is north of the bedroom 
+The bedroom is north of the bathroom 
++Q+
+What is north of the bedroom 
++A+
+garden
+
++I+
+761
++S+
+2
+The bedroom is east of the garden 
+The bedroom is west of the hallway 
++Q+
+What is the garden west of 
++A+
+bedroom
+
++I+
+762
++S+
+2
+The kitchen is south of the hallway 
+The office is south of the kitchen 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+763
++S+
+2
+The office is north of the kitchen 
+The office is south of the garden 
++Q+
+What is the garden north of 
++A+
+office
+
++I+
+764
++S+
+2
+The hallway is south of the bathroom 
+The bathroom is south of the kitchen 
++Q+
+What is the bathroom north of 
++A+
+hallway
+
++I+
+765
++S+
+2
+The hallway is south of the bedroom 
+The garden is north of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+hallway
+
++I+
+766
++S+
+2
+The bedroom is west of the garden 
+The bathroom is east of the garden 
++Q+
+What is the garden east of 
++A+
+bedroom
+
++I+
+767
++S+
+2
+The hallway is south of the bedroom 
+The kitchen is south of the hallway 
++Q+
+What is the bedroom north of 
++A+
+hallway
+
++I+
+768
++S+
+2
+The bathroom is west of the garden 
+The office is east of the garden 
++Q+
+What is west of the garden 
++A+
+bathroom
+
++I+
+769
++S+
+2
+The hallway is west of the kitchen 
+The bathroom is east of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+hallway
+
++I+
+770
++S+
+2
+The hallway is west of the garden 
+The office is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+office
+
++I+
+771
++S+
+2
+The bathroom is north of the garden 
+The hallway is south of the garden 
++Q+
+What is the garden south of 
++A+
+bathroom
+
++I+
+772
++S+
+2
+The bedroom is north of the office 
+The garden is south of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+773
++S+
+2
+The bedroom is north of the office 
+The office is north of the bathroom 
++Q+
+What is the bathroom south of 
++A+
+office
+
++I+
+774
++S+
+2
+The bedroom is east of the bathroom 
+The bathroom is east of the garden 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+775
++S+
+2
+The garden is south of the bathroom 
+The bathroom is south of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+bathroom
+
++I+
+776
++S+
+2
+The garden is east of the bathroom 
+The kitchen is west of the bathroom 
++Q+
+What is west of the bathroom 
++A+
+kitchen
+
++I+
+777
++S+
+2
+The bedroom is north of the garden 
+The office is south of the garden 
++Q+
+What is the garden north of 
++A+
+office
+
++I+
+778
++S+
+2
+The hallway is south of the garden 
+The hallway is north of the office 
++Q+
+What is north of the office 
++A+
+hallway
+
++I+
+779
++S+
+2
+The kitchen is north of the bathroom 
+The bathroom is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+bathroom
+
++I+
+780
++S+
+2
+The hallway is north of the bathroom 
+The garden is south of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+hallway
+
++I+
+781
++S+
+2
+The garden is east of the bathroom 
+The kitchen is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+kitchen
+
++I+
+782
++S+
+2
+The garden is west of the bathroom 
+The hallway is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+hallway
+
++I+
+783
++S+
+2
+The garden is south of the bathroom 
+The bedroom is north of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+garden
+
++I+
+784
++S+
+2
+The hallway is north of the kitchen 
+The bathroom is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+bathroom
+
++I+
+785
++S+
+2
+The office is north of the garden 
+The hallway is south of the garden 
++Q+
+What is the garden north of 
++A+
+hallway
+
++I+
+786
++S+
+2
+The hallway is north of the garden 
+The garden is north of the kitchen 
++Q+
+What is north of the garden 
++A+
+hallway
+
++I+
+787
++S+
+2
+The bedroom is west of the garden 
+The bathroom is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+bathroom
+
++I+
+788
++S+
+2
+The office is north of the bedroom 
+The kitchen is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+kitchen
+
++I+
+789
++S+
+2
+The kitchen is north of the bedroom 
+The office is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+office
+
++I+
+790
++S+
+2
+The bedroom is west of the kitchen 
+The kitchen is west of the hallway 
++Q+
+What is the kitchen east of 
++A+
+bedroom
+
++I+
+791
++S+
+2
+The hallway is south of the bathroom 
+The bathroom is south of the office 
++Q+
+What is south of the bathroom 
++A+
+hallway
+
++I+
+792
++S+
+2
+The kitchen is west of the hallway 
+The hallway is west of the office 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+793
++S+
+2
+The kitchen is south of the garden 
+The garden is south of the bathroom 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+794
++S+
+2
+The office is west of the bathroom 
+The bedroom is west of the office 
++Q+
+What is west of the bathroom 
++A+
+office
+
++I+
+795
++S+
+2
+The bathroom is south of the office 
+The bedroom is south of the bathroom 
++Q+
+What is the office north of 
++A+
+bathroom
+
++I+
+796
++S+
+2
+The garden is west of the bathroom 
+The bathroom is west of the bedroom 
++Q+
+What is the bathroom east of 
++A+
+garden
+
++I+
+797
++S+
+2
+The bedroom is west of the garden 
+The kitchen is east of the garden 
++Q+
+What is the garden west of 
++A+
+kitchen
+
++I+
+798
++S+
+2
+The bedroom is south of the garden 
+The hallway is north of the garden 
++Q+
+What is the garden north of 
++A+
+bedroom
+
++I+
+799
++S+
+2
+The bathroom is west of the garden 
+The hallway is east of the garden 
++Q+
+What is the garden west of 
++A+
+hallway
+
++I+
+800
++S+
+2
+The kitchen is north of the bathroom 
+The kitchen is south of the office 
++Q+
+What is the office north of 
++A+
+kitchen
+
++I+
+801
++S+
+2
+The office is west of the kitchen 
+The hallway is east of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+office
+
++I+
+802
++S+
+2
+The kitchen is east of the hallway 
+The garden is east of the kitchen 
++Q+
+What is the hallway west of 
++A+
+kitchen
+
++I+
+803
++S+
+2
+The bedroom is north of the office 
+The kitchen is south of the office 
++Q+
+What is south of the office 
++A+
+kitchen
+
++I+
+804
++S+
+2
+The office is south of the hallway 
+The kitchen is south of the office 
++Q+
+What is the hallway north of 
++A+
+office
+
++I+
+805
++S+
+2
+The bedroom is east of the garden 
+The garden is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+garden
+
++I+
+806
++S+
+2
+The hallway is east of the garden 
+The kitchen is west of the garden 
++Q+
+What is east of the garden 
++A+
+hallway
+
++I+
+807
++S+
+2
+The hallway is north of the bedroom 
+The bathroom is south of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+hallway
+
++I+
+808
++S+
+2
+The garden is east of the hallway 
+The bathroom is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+garden
+
++I+
+809
++S+
+2
+The bedroom is west of the office 
+The hallway is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+hallway
+
++I+
+810
++S+
+2
+The hallway is east of the office 
+The kitchen is west of the office 
++Q+
+What is east of the office 
++A+
+hallway
+
++I+
+811
++S+
+2
+The bathroom is north of the hallway 
+The bathroom is south of the office 
++Q+
+What is the office north of 
++A+
+bathroom
+
++I+
+812
++S+
+2
+The kitchen is north of the garden 
+The garden is north of the hallway 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+813
++S+
+2
+The bathroom is north of the bedroom 
+The bathroom is south of the garden 
++Q+
+What is the garden north of 
++A+
+bathroom
+
++I+
+814
++S+
+2
+The garden is east of the kitchen 
+The bedroom is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+815
++S+
+2
+The kitchen is east of the bedroom 
+The office is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+office
+
++I+
+816
++S+
+2
+The hallway is north of the kitchen 
+The office is north of the hallway 
++Q+
+What is north of the kitchen 
++A+
+hallway
+
++I+
+817
++S+
+2
+The garden is north of the bathroom 
+The hallway is north of the garden 
++Q+
+What is north of the bathroom 
++A+
+garden
+
++I+
+818
++S+
+2
+The bedroom is south of the kitchen 
+The bathroom is north of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+bedroom
+
++I+
+819
++S+
+2
+The bedroom is north of the hallway 
+The bedroom is south of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+bedroom
+
++I+
+820
++S+
+2
+The kitchen is west of the bedroom 
+The garden is east of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+821
++S+
+2
+The garden is east of the bathroom 
+The bedroom is west of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+garden
+
++I+
+822
++S+
+2
+The kitchen is north of the bathroom 
+The bedroom is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+bedroom
+
++I+
+823
++S+
+2
+The garden is east of the hallway 
+The hallway is east of the bathroom 
++Q+
+What is the hallway west of 
++A+
+garden
+
++I+
+824
++S+
+2
+The bathroom is west of the garden 
+The garden is west of the kitchen 
++Q+
+What is west of the garden 
++A+
+bathroom
+
++I+
+825
++S+
+2
+The bedroom is east of the bathroom 
+The office is west of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+bedroom
+
++I+
+826
++S+
+2
+The office is east of the garden 
+The bedroom is east of the office 
++Q+
+What is the garden west of 
++A+
+office
+
++I+
+827
++S+
+2
+The bathroom is south of the bedroom 
+The office is north of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+828
++S+
+2
+The kitchen is east of the bedroom 
+The bedroom is east of the office 
++Q+
+What is east of the bedroom 
++A+
+kitchen
+
++I+
+829
++S+
+2
+The bedroom is south of the bathroom 
+The garden is north of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+bedroom
+
++I+
+830
++S+
+2
+The hallway is south of the bedroom 
+The bedroom is south of the garden 
++Q+
+What is south of the bedroom 
++A+
+hallway
+
++I+
+831
++S+
+2
+The kitchen is east of the hallway 
+The garden is west of the hallway 
++Q+
+What is east of the hallway 
++A+
+kitchen
+
++I+
+832
++S+
+2
+The kitchen is east of the office 
+The bathroom is west of the office 
++Q+
+What is west of the office 
++A+
+bathroom
+
++I+
+833
++S+
+2
+The hallway is south of the garden 
+The office is north of the garden 
++Q+
+What is the garden south of 
++A+
+office
+
++I+
+834
++S+
+2
+The hallway is east of the garden 
+The kitchen is west of the garden 
++Q+
+What is the garden east of 
++A+
+kitchen
+
++I+
+835
++S+
+2
+The garden is east of the bathroom 
+The bathroom is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+bathroom
+
++I+
+836
++S+
+2
+The bedroom is east of the bathroom 
+The bathroom is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+bathroom
+
++I+
+837
++S+
+2
+The bathroom is west of the bedroom 
+The kitchen is east of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+bathroom
+
++I+
+838
++S+
+2
+The bathroom is south of the bedroom 
+The office is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+office
+
++I+
+839
++S+
+2
+The bedroom is north of the hallway 
+The bathroom is south of the hallway 
++Q+
+What is north of the hallway 
++A+
+bedroom
+
++I+
+840
++S+
+2
+The kitchen is south of the office 
+The office is south of the hallway 
++Q+
+What is south of the office 
++A+
+kitchen
+
++I+
+841
++S+
+2
+The bedroom is west of the bathroom 
+The bathroom is west of the kitchen 
++Q+
+What is the bathroom east of 
++A+
+bedroom
+
++I+
+842
++S+
+2
+The kitchen is south of the office 
+The bedroom is north of the office 
++Q+
+What is the office south of 
++A+
+bedroom
+
++I+
+843
++S+
+2
+The hallway is east of the garden 
+The kitchen is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+kitchen
+
++I+
+844
++S+
+2
+The office is west of the kitchen 
+The office is east of the garden 
++Q+
+What is east of the garden 
++A+
+office
+
++I+
+845
++S+
+2
+The garden is east of the bedroom 
+The kitchen is west of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+garden
+
++I+
+846
++S+
+2
+The bedroom is east of the office 
+The garden is west of the office 
++Q+
+What is east of the office 
++A+
+bedroom
+
++I+
+847
++S+
+2
+The bathroom is north of the office 
+The office is north of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+office
+
++I+
+848
++S+
+2
+The office is north of the bathroom 
+The bedroom is south of the bathroom 
++Q+
+What is the bathroom north of 
++A+
+bedroom
+
++I+
+849
++S+
+2
+The bathroom is south of the hallway 
+The kitchen is north of the hallway 
++Q+
+What is the hallway north of 
++A+
+bathroom
+
++I+
+850
++S+
+2
+The hallway is north of the garden 
+The hallway is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+hallway
+
++I+
+851
++S+
+2
+The bedroom is north of the kitchen 
+The hallway is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+hallway
+
++I+
+852
++S+
+2
+The office is south of the hallway 
+The garden is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+garden
+
++I+
+853
++S+
+2
+The bathroom is west of the kitchen 
+The bathroom is east of the garden 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+854
++S+
+2
+The garden is east of the kitchen 
+The bathroom is east of the garden 
++Q+
+What is the garden west of 
++A+
+bathroom
+
++I+
+855
++S+
+2
+The hallway is east of the bedroom 
+The kitchen is east of the hallway 
++Q+
+What is the bedroom west of 
++A+
+hallway
+
++I+
+856
++S+
+2
+The kitchen is east of the hallway 
+The bedroom is east of the kitchen 
++Q+
+What is east of the kitchen 
++A+
+bedroom
+
++I+
+857
++S+
+2
+The kitchen is east of the office 
+The bathroom is east of the kitchen 
++Q+
+What is east of the office 
++A+
+kitchen
+
++I+
+858
++S+
+2
+The garden is west of the office 
+The hallway is west of the garden 
++Q+
+What is the office east of 
++A+
+garden
+
++I+
+859
++S+
+2
+The hallway is east of the office 
+The bathroom is west of the office 
++Q+
+What is the office east of 
++A+
+bathroom
+
++I+
+860
++S+
+2
+The office is west of the bedroom 
+The bedroom is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+bedroom
+
++I+
+861
++S+
+2
+The office is east of the bathroom 
+The bathroom is east of the hallway 
++Q+
+What is east of the bathroom 
++A+
+office
+
++I+
+862
++S+
+2
+The bathroom is north of the garden 
+The hallway is south of the garden 
++Q+
+What is north of the garden 
++A+
+bathroom
+
++I+
+863
++S+
+2
+The office is south of the garden 
+The bedroom is north of the garden 
++Q+
+What is north of the garden 
++A+
+bedroom
+
++I+
+864
++S+
+2
+The bedroom is east of the office 
+The kitchen is west of the office 
++Q+
+What is west of the office 
++A+
+kitchen
+
++I+
+865
++S+
+2
+The hallway is north of the bedroom 
+The kitchen is south of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+hallway
+
++I+
+866
++S+
+2
+The bedroom is east of the office 
+The hallway is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+hallway
+
++I+
+867
++S+
+2
+The bedroom is west of the kitchen 
+The garden is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+garden
+
++I+
+868
++S+
+2
+The garden is west of the kitchen 
+The bathroom is east of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+garden
+
++I+
+869
++S+
+2
+The office is north of the bedroom 
+The office is south of the garden 
++Q+
+What is south of the garden 
++A+
+office
+
++I+
+870
++S+
+2
+The hallway is south of the office 
+The garden is north of the office 
++Q+
+What is the office north of 
++A+
+hallway
+
++I+
+871
++S+
+2
+The kitchen is south of the hallway 
+The bathroom is north of the hallway 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+872
++S+
+2
+The kitchen is south of the hallway 
+The garden is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+garden
+
++I+
+873
++S+
+2
+The hallway is west of the bathroom 
+The kitchen is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+874
++S+
+2
+The hallway is east of the garden 
+The garden is east of the bathroom 
++Q+
+What is east of the garden 
++A+
+hallway
+
++I+
+875
++S+
+2
+The hallway is east of the bedroom 
+The garden is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+garden
+
++I+
+876
++S+
+2
+The bathroom is north of the office 
+The kitchen is south of the office 
++Q+
+What is the office south of 
++A+
+bathroom
+
++I+
+877
++S+
+2
+The kitchen is south of the bedroom 
+The hallway is north of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+kitchen
+
++I+
+878
++S+
+2
+The bedroom is west of the kitchen 
+The office is west of the bedroom 
++Q+
+What is west of the kitchen 
++A+
+bedroom
+
++I+
+879
++S+
+2
+The garden is south of the bedroom 
+The bedroom is south of the kitchen 
++Q+
+What is south of the bedroom 
++A+
+garden
+
++I+
+880
++S+
+2
+The hallway is north of the kitchen 
+The bedroom is south of the kitchen 
++Q+
+What is north of the kitchen 
++A+
+hallway
+
++I+
+881
++S+
+2
+The bathroom is east of the office 
+The kitchen is east of the bathroom 
++Q+
+What is east of the office 
++A+
+bathroom
+
++I+
+882
++S+
+2
+The office is west of the garden 
+The bathroom is east of the garden 
++Q+
+What is west of the garden 
++A+
+office
+
++I+
+883
++S+
+2
+The bathroom is north of the garden 
+The bathroom is south of the kitchen 
++Q+
+What is north of the garden 
++A+
+bathroom
+
++I+
+884
++S+
+2
+The bedroom is west of the bathroom 
+The hallway is west of the bedroom 
++Q+
+What is the bathroom east of 
++A+
+bedroom
+
++I+
+885
++S+
+2
+The hallway is east of the kitchen 
+The bathroom is west of the kitchen 
++Q+
+What is west of the kitchen 
++A+
+bathroom
+
++I+
+886
++S+
+2
+The garden is east of the office 
+The bathroom is east of the garden 
++Q+
+What is the office west of 
++A+
+garden
+
++I+
+887
++S+
+2
+The bathroom is north of the kitchen 
+The bathroom is south of the garden 
++Q+
+What is north of the kitchen 
++A+
+bathroom
+
++I+
+888
++S+
+2
+The kitchen is south of the hallway 
+The office is north of the hallway 
++Q+
+What is the hallway north of 
++A+
+kitchen
+
++I+
+889
++S+
+2
+The kitchen is north of the bathroom 
+The hallway is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+hallway
+
++I+
+890
++S+
+2
+The bathroom is west of the bedroom 
+The hallway is east of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+hallway
+
++I+
+891
++S+
+2
+The kitchen is south of the garden 
+The hallway is north of the garden 
++Q+
+What is north of the garden 
++A+
+hallway
+
++I+
+892
++S+
+2
+The office is north of the bathroom 
+The bedroom is south of the bathroom 
++Q+
+What is north of the bathroom 
++A+
+office
+
++I+
+893
++S+
+2
+The garden is south of the bathroom 
+The kitchen is south of the garden 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+894
++S+
+2
+The kitchen is west of the hallway 
+The garden is east of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+895
++S+
+2
+The bathroom is west of the office 
+The office is west of the hallway 
++Q+
+What is the office east of 
++A+
+bathroom
+
++I+
+896
++S+
+2
+The bedroom is south of the hallway 
+The garden is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+garden
+
++I+
+897
++S+
+2
+The office is west of the bathroom 
+The kitchen is east of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+kitchen
+
++I+
+898
++S+
+2
+The office is north of the hallway 
+The kitchen is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+kitchen
+
++I+
+899
++S+
+2
+The hallway is west of the office 
+The kitchen is west of the hallway 
++Q+
+What is west of the office 
++A+
+hallway
+
++I+
+900
++S+
+2
+The bedroom is south of the office 
+The garden is north of the office 
++Q+
+What is the office north of 
++A+
+bedroom
+
++I+
+901
++S+
+2
+The hallway is west of the kitchen 
+The hallway is east of the garden 
++Q+
+What is west of the kitchen 
++A+
+hallway
+
++I+
+902
++S+
+2
+The bedroom is west of the bathroom 
+The office is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+office
+
++I+
+903
++S+
+2
+The kitchen is south of the bedroom 
+The garden is north of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+garden
+
++I+
+904
++S+
+2
+The bedroom is west of the kitchen 
+The kitchen is west of the bathroom 
++Q+
+What is the bathroom east of 
++A+
+kitchen
+
++I+
+905
++S+
+2
+The office is south of the bathroom 
+The garden is north of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+office
+
++I+
+906
++S+
+2
+The hallway is west of the kitchen 
+The kitchen is west of the bedroom 
++Q+
+What is the bedroom east of 
++A+
+kitchen
+
++I+
+907
++S+
+2
+The bedroom is east of the office 
+The office is east of the hallway 
++Q+
+What is the hallway west of 
++A+
+office
+
++I+
+908
++S+
+2
+The bedroom is east of the bathroom 
+The bedroom is west of the office 
++Q+
+What is the office east of 
++A+
+bedroom
+
++I+
+909
++S+
+2
+The bedroom is south of the hallway 
+The bathroom is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+910
++S+
+2
+The bedroom is north of the garden 
+The kitchen is north of the bedroom 
++Q+
+What is the garden south of 
++A+
+bedroom
+
++I+
+911
++S+
+2
+The hallway is north of the office 
+The hallway is south of the kitchen 
++Q+
+What is north of the office 
++A+
+hallway
+
++I+
+912
++S+
+2
+The kitchen is east of the garden 
+The kitchen is west of the office 
++Q+
+What is west of the office 
++A+
+kitchen
+
++I+
+913
++S+
+2
+The hallway is east of the garden 
+The kitchen is west of the garden 
++Q+
+What is east of the garden 
++A+
+hallway
+
++I+
+914
++S+
+2
+The garden is south of the office 
+The bedroom is north of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+915
++S+
+2
+The garden is north of the bathroom 
+The kitchen is north of the garden 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+916
++S+
+2
+The bedroom is south of the office 
+The garden is north of the office 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+917
++S+
+2
+The hallway is south of the bathroom 
+The bathroom is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+918
++S+
+2
+The bathroom is east of the hallway 
+The hallway is east of the kitchen 
++Q+
+What is east of the hallway 
++A+
+bathroom
+
++I+
+919
++S+
+2
+The kitchen is west of the garden 
+The kitchen is east of the bedroom 
++Q+
+What is west of the garden 
++A+
+kitchen
+
++I+
+920
++S+
+2
+The hallway is south of the bedroom 
+The office is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+office
+
++I+
+921
++S+
+2
+The garden is north of the bedroom 
+The hallway is north of the garden 
++Q+
+What is north of the garden 
++A+
+hallway
+
++I+
+922
++S+
+2
+The hallway is north of the kitchen 
+The office is south of the kitchen 
++Q+
+What is south of the kitchen 
++A+
+office
+
++I+
+923
++S+
+2
+The bathroom is east of the garden 
+The kitchen is west of the garden 
++Q+
+What is the garden west of 
++A+
+bathroom
+
++I+
+924
++S+
+2
+The bathroom is west of the kitchen 
+The kitchen is west of the hallway 
++Q+
+What is the kitchen east of 
++A+
+bathroom
+
++I+
+925
++S+
+2
+The bathroom is south of the kitchen 
+The garden is north of the kitchen 
++Q+
+What is the kitchen south of 
++A+
+garden
+
++I+
+926
++S+
+2
+The hallway is south of the bathroom 
+The hallway is north of the bedroom 
++Q+
+What is the bathroom north of 
++A+
+hallway
+
++I+
+927
++S+
+2
+The bedroom is south of the bathroom 
+The bedroom is north of the garden 
++Q+
+What is south of the bathroom 
++A+
+bedroom
+
++I+
+928
++S+
+2
+The bathroom is north of the hallway 
+The bathroom is south of the bedroom 
++Q+
+What is the bedroom north of 
++A+
+bathroom
+
++I+
+929
++S+
+2
+The kitchen is south of the garden 
+The garden is south of the bathroom 
++Q+
+What is the garden north of 
++A+
+kitchen
+
++I+
+930
++S+
+2
+The office is south of the garden 
+The bathroom is south of the office 
++Q+
+What is the garden north of 
++A+
+office
+
++I+
+931
++S+
+2
+The bathroom is south of the garden 
+The office is north of the garden 
++Q+
+What is south of the garden 
++A+
+bathroom
+
++I+
+932
++S+
+2
+The bathroom is west of the garden 
+The bathroom is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+bathroom
+
++I+
+933
++S+
+2
+The hallway is west of the kitchen 
+The bedroom is west of the hallway 
++Q+
+What is west of the kitchen 
++A+
+hallway
+
++I+
+934
++S+
+2
+The bedroom is west of the garden 
+The hallway is west of the bedroom 
++Q+
+What is the garden east of 
++A+
+bedroom
+
++I+
+935
++S+
+2
+The bedroom is south of the office 
+The office is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+office
+
++I+
+936
++S+
+2
+The hallway is north of the bathroom 
+The kitchen is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+kitchen
+
++I+
+937
++S+
+2
+The bedroom is north of the kitchen 
+The garden is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+garden
+
++I+
+938
++S+
+2
+The kitchen is south of the bedroom 
+The hallway is north of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+kitchen
+
++I+
+939
++S+
+2
+The kitchen is west of the bedroom 
+The bedroom is west of the garden 
++Q+
+What is the garden east of 
++A+
+bedroom
+
++I+
+940
++S+
+2
+The office is north of the hallway 
+The garden is south of the hallway 
++Q+
+What is south of the hallway 
++A+
+garden
+
++I+
+941
++S+
+2
+The hallway is west of the bathroom 
+The kitchen is east of the bathroom 
++Q+
+What is the bathroom west of 
++A+
+kitchen
+
++I+
+942
++S+
+2
+The garden is east of the kitchen 
+The office is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+office
+
++I+
+943
++S+
+2
+The bathroom is east of the garden 
+The office is east of the bathroom 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+944
++S+
+2
+The bathroom is south of the garden 
+The bedroom is north of the garden 
++Q+
+What is the garden north of 
++A+
+bathroom
+
++I+
+945
++S+
+2
+The office is south of the garden 
+The office is north of the bedroom 
++Q+
+What is the garden north of 
++A+
+office
+
++I+
+946
++S+
+2
+The garden is south of the hallway 
+The bedroom is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+bedroom
+
++I+
+947
++S+
+2
+The bedroom is south of the bathroom 
+The bathroom is south of the kitchen 
++Q+
+What is the kitchen north of 
++A+
+bathroom
+
++I+
+948
++S+
+2
+The bathroom is north of the hallway 
+The office is south of the hallway 
++Q+
+What is the hallway north of 
++A+
+office
+
++I+
+949
++S+
+2
+The bedroom is south of the office 
+The garden is north of the office 
++Q+
+What is the office north of 
++A+
+bedroom
+
++I+
+950
++S+
+2
+The bathroom is north of the hallway 
+The office is north of the bathroom 
++Q+
+What is the hallway south of 
++A+
+bathroom
+
++I+
+951
++S+
+2
+The garden is west of the bedroom 
+The bathroom is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+bathroom
+
++I+
+952
++S+
+2
+The garden is east of the bathroom 
+The bedroom is west of the bathroom 
++Q+
+What is east of the bathroom 
++A+
+garden
+
++I+
+953
++S+
+2
+The garden is south of the office 
+The hallway is north of the office 
++Q+
+What is the office north of 
++A+
+garden
+
++I+
+954
++S+
+2
+The hallway is north of the kitchen 
+The kitchen is north of the office 
++Q+
+What is north of the office 
++A+
+kitchen
+
++I+
+955
++S+
+2
+The garden is west of the hallway 
+The office is east of the hallway 
++Q+
+What is east of the hallway 
++A+
+office
+
++I+
+956
++S+
+2
+The hallway is east of the garden 
+The hallway is west of the office 
++Q+
+What is the office east of 
++A+
+hallway
+
++I+
+957
++S+
+2
+The kitchen is west of the garden 
+The hallway is east of the garden 
++Q+
+What is the garden east of 
++A+
+kitchen
+
++I+
+958
++S+
+2
+The bathroom is south of the garden 
+The office is north of the garden 
++Q+
+What is north of the garden 
++A+
+office
+
++I+
+959
++S+
+2
+The office is east of the bedroom 
+The kitchen is west of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+office
+
++I+
+960
++S+
+2
+The garden is north of the kitchen 
+The kitchen is north of the bedroom 
++Q+
+What is north of the kitchen 
++A+
+garden
+
++I+
+961
++S+
+2
+The bedroom is west of the garden 
+The kitchen is east of the garden 
++Q+
+What is the garden east of 
++A+
+bedroom
+
++I+
+962
++S+
+2
+The kitchen is east of the office 
+The garden is west of the office 
++Q+
+What is east of the office 
++A+
+kitchen
+
++I+
+963
++S+
+2
+The office is east of the kitchen 
+The garden is west of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+garden
+
++I+
+964
++S+
+2
+The bathroom is north of the hallway 
+The garden is south of the hallway 
++Q+
+What is the hallway south of 
++A+
+bathroom
+
++I+
+965
++S+
+2
+The garden is north of the bedroom 
+The kitchen is north of the garden 
++Q+
+What is the bedroom south of 
++A+
+garden
+
++I+
+966
++S+
+2
+The bathroom is west of the garden 
+The garden is west of the hallway 
++Q+
+What is west of the garden 
++A+
+bathroom
+
++I+
+967
++S+
+2
+The kitchen is east of the office 
+The kitchen is west of the bedroom 
++Q+
+What is east of the office 
++A+
+kitchen
+
++I+
+968
++S+
+2
+The office is north of the garden 
+The bedroom is south of the garden 
++Q+
+What is the garden south of 
++A+
+office
+
++I+
+969
++S+
+2
+The office is east of the hallway 
+The bedroom is west of the hallway 
++Q+
+What is the hallway west of 
++A+
+office
+
++I+
+970
++S+
+2
+The bathroom is east of the garden 
+The bathroom is west of the bedroom 
++Q+
+What is east of the garden 
++A+
+bathroom
+
++I+
+971
++S+
+2
+The garden is west of the hallway 
+The hallway is west of the bathroom 
++Q+
+What is the hallway east of 
++A+
+garden
+
++I+
+972
++S+
+2
+The garden is west of the kitchen 
+The office is east of the kitchen 
++Q+
+What is the kitchen east of 
++A+
+garden
+
++I+
+973
++S+
+2
+The hallway is north of the office 
+The kitchen is north of the hallway 
++Q+
+What is north of the hallway 
++A+
+kitchen
+
++I+
+974
++S+
+2
+The hallway is west of the bathroom 
+The kitchen is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+kitchen
+
++I+
+975
++S+
+2
+The bathroom is north of the garden 
+The bathroom is south of the bedroom 
++Q+
+What is south of the bedroom 
++A+
+bathroom
+
++I+
+976
++S+
+2
+The bedroom is north of the kitchen 
+The kitchen is north of the bathroom 
++Q+
+What is the kitchen south of 
++A+
+bedroom
+
++I+
+977
++S+
+2
+The bathroom is west of the bedroom 
+The garden is west of the bathroom 
++Q+
+What is west of the bedroom 
++A+
+bathroom
+
++I+
+978
++S+
+2
+The hallway is west of the garden 
+The office is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+office
+
++I+
+979
++S+
+2
+The bathroom is west of the hallway 
+The kitchen is east of the hallway 
++Q+
+What is east of the hallway 
++A+
+kitchen
+
++I+
+980
++S+
+2
+The hallway is south of the office 
+The garden is north of the office 
++Q+
+What is north of the office 
++A+
+garden
+
++I+
+981
++S+
+2
+The bedroom is north of the garden 
+The garden is north of the hallway 
++Q+
+What is north of the garden 
++A+
+bedroom
+
++I+
+982
++S+
+2
+The bathroom is north of the bedroom 
+The kitchen is south of the bedroom 
++Q+
+What is the bedroom south of 
++A+
+bathroom
+
++I+
+983
++S+
+2
+The bathroom is north of the hallway 
+The hallway is north of the office 
++Q+
+What is north of the office 
++A+
+hallway
+
++I+
+984
++S+
+2
+The hallway is south of the bathroom 
+The bedroom is north of the bathroom 
++Q+
+What is south of the bathroom 
++A+
+hallway
+
++I+
+985
++S+
+2
+The bedroom is east of the kitchen 
+The office is east of the bedroom 
++Q+
+What is the bedroom west of 
++A+
+office
+
++I+
+986
++S+
+2
+The kitchen is north of the garden 
+The hallway is south of the garden 
++Q+
+What is the garden south of 
++A+
+kitchen
+
++I+
+987
++S+
+2
+The hallway is east of the garden 
+The office is west of the garden 
++Q+
+What is the garden west of 
++A+
+hallway
+
++I+
+988
++S+
+2
+The bedroom is west of the office 
+The office is west of the hallway 
++Q+
+What is west of the hallway 
++A+
+office
+
++I+
+989
++S+
+2
+The hallway is east of the office 
+The office is east of the bedroom 
++Q+
+What is the office west of 
++A+
+hallway
+
++I+
+990
++S+
+2
+The bedroom is west of the hallway 
+The kitchen is west of the bedroom 
++Q+
+What is the hallway east of 
++A+
+bedroom
+
++I+
+991
++S+
+2
+The kitchen is south of the hallway 
+The bedroom is north of the hallway 
++Q+
+What is the hallway south of 
++A+
+bedroom
+
++I+
+992
++S+
+2
+The bedroom is west of the hallway 
+The hallway is west of the garden 
++Q+
+What is the garden east of 
++A+
+hallway
+
++I+
+993
++S+
+2
+The bedroom is south of the hallway 
+The hallway is south of the bathroom 
++Q+
+What is the hallway north of 
++A+
+bedroom
+
++I+
+994
++S+
+2
+The hallway is east of the bedroom 
+The kitchen is west of the bedroom 
++Q+
+What is east of the bedroom 
++A+
+hallway
+
++I+
+995
++S+
+2
+The hallway is west of the bathroom 
+The garden is west of the hallway 
++Q+
+What is west of the bathroom 
++A+
+hallway
+
++I+
+996
++S+
+2
+The bedroom is south of the garden 
+The kitchen is north of the garden 
++Q+
+What is north of the garden 
++A+
+kitchen
+
++I+
+997
++S+
+2
+The garden is east of the bedroom 
+The kitchen is west of the bedroom 
++Q+
+What is west of the bedroom 
++A+
+kitchen
+
++I+
+998
++S+
+2
+The hallway is south of the bedroom 
+The kitchen is north of the bedroom 
++Q+
+What is north of the bedroom 
++A+
+kitchen
+
++I+
+999
++S+
+2
+The garden is west of the hallway 
+The garden is east of the kitchen 
++Q+
+What is the kitchen west of 
++A+
+garden

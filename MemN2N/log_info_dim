@@ -1,0 +1,2252 @@
+< NUM TASK LOOP : 1 >
+< LIST DATA SET >
+     0 : TEST_ALL
+     1 : qa1_single-supporting-fact
+     2 : qa2_two-supporting-facts
+     3 : qa3_three-supporting-facts
+     4 : qa4_two-arg-relations
+     5 : qa5_three-arg-relations
+     6 : qa6_yes-no-questions
+     7 : qa7_counting
+     8 : qa8_lists-sets
+     9 : qa9_simple-negation
+    10 : qa10_indefinite-knowledge
+    11 : qa11_basic-coreference
+    12 : qa12_conjunction
+    13 : qa13_compound-coreference
+    14 : qa14_time-reasoning
+    15 : qa15_basic-deduction
+    16 : qa16_basic-induction
+    17 : qa17_positional-reasoning
+    18 : qa18_size-reasoning
+    19 : qa19_path-finding
+    20 : qa20_agents-motivations
+    21 : qa_joint
+<Test index> 1 ~ 20
+< Setting >
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Extract Data Set : ./dataset/en_10k_parsed/qa1_single-supporting-fact_train_set, ./dataset/en_10k_parsed/qa1_single-supporting-fact_train_set, ./dataset/en_10k_parsed/qa1_single-supporting-fact_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 20 words
+    NULL Mary moved to the bathroom John went hallway Where is Daniel back Sandra garden office journeyed travelled bedroom kitchen 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 30
+    Dim of Word : 7
+    Dim of Dict : 20
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 30
+    Dim of Word : 7
+    Dim of Dict : 20
+< Sample Init. >
+< Layer Construction >
+    Dim input : 30
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 30, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 30, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 30, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 30, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 30, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 30, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 30, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 30, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 30, f_shift_based: false
+ < cross_entropy_constructor > - dim: 30
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -2749.775879, -428.899017, -428.899017, error: 0.533333, 0.494000, 0.494000
+< Test Phase >
+err(test) : 0.509000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000543  [1] 0.000502  [2] 0.003729  [3] 0.114852  [4] 0.153226  [5] 0.011382  [6] 0.000000  
+[1] : [0] 0.000126  [1] 0.000507  [2] 0.003699  [3] 0.105637  [4] 0.158347  [5] 0.011468  [6] 0.000000  
+[2] : [0] 0.743319  [1] 0.000312  [2] 0.001254  [3] 0.045717  [4] 0.056654  [5] 0.003026  [6] 0.000000  
+[3] : [0] 0.000064  [1] 0.000041  [2] 0.003838  [3] 0.093002  [4] 0.165679  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000055  [1] 0.000021  [2] 0.003823  [3] 0.232802  [4] 0.074368  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000062  [1] 0.000038  [2] 0.003699  [3] 0.198180  [4] 0.166904  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000171  [1] 0.000976  [2] 0.007321  [3] 0.275490  [4] 0.230539  [5] 0.008568  [6] 0.000000  
+[7] : [0] 0.000046  [1] 0.000166  [2] 0.001171  [3] 0.031681  [4] 0.056402  [5] 0.002951  [6] 0.000000  
+[8] : [0] 0.000011  [1] 0.000008  [2] 0.001257  [3] 0.051910  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000032  [1] 0.000016  [2] 0.001229  [3] 0.107140  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000379  [3] 0.021680  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000366  [3] 0.016182  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000131  [3] 0.015359  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000386  [3] 0.014420  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000371  [3] 0.099365  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000362  [3] 0.060487  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000721  [3] 0.101474  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000124  [3] 0.004521  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000127  [3] 0.007279  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000108  [3] 0.039891  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 1
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.487309
+   max : 7.487309
+   min : 7.487309
+   profile total : 3.133961
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.533333
+   max : 0.533333
+   min : 0.533333
+< Result - Test >
+ -TIME
+   avg : 0.409346
+   max : 0.409346
+   min : 0.409346
+   profile total : 0.383733
+ -ERROR RATE
+   avg : 0.509000
+   max : 0.509000
+   min : 0.509000
+< Extract Data Set : ./dataset/en_10k_parsed/qa2_two-supporting-facts_train_set, ./dataset/en_10k_parsed/qa2_two-supporting-facts_train_set, ./dataset/en_10k_parsed/qa2_two-supporting-facts_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 34 words
+    NULL Mary moved to the bathroom Sandra journeyed bedroom got football there John went kitchen back garden Where is office hallway Daniel dropped milk took picked up apple travelled left grabbed discarded put down 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 84
+    Dim of Word : 7
+    Dim of Dict : 34
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 84
+    Dim of Word : 7
+    Dim of Dict : 34
+< Sample Init. >
+< Layer Construction >
+    Dim input : 84
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 84, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 84, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 84, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 84, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 84, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 84, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 84, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 84, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 84, f_shift_based: false
+ < cross_entropy_constructor > - dim: 84
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -1384.092529, -170.574936, -170.574936, error: 0.834889, 0.829000, 0.829000
+< Test Phase >
+err(test) : 0.840000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000572  [1] 0.001371  [2] 0.003872  [3] 0.116409  [4] 0.157274  [5] 0.017792  [6] 0.000000  
+[1] : [0] 0.000155  [1] 0.001357  [2] 0.003783  [3] 0.103983  [4] 0.161272  [5] 0.017823  [6] 0.000000  
+[2] : [0] 0.000602  [1] 0.000756  [2] 0.001300  [3] 0.099312  [4] 0.056107  [5] 0.003120  [6] 0.000000  
+[3] : [0] 0.000079  [1] 0.000065  [2] 0.003970  [3] 0.096361  [4] 0.168214  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000044  [1] 0.000021  [2] 0.003874  [3] 0.243122  [4] 0.075890  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000073  [1] 0.000066  [2] 0.003729  [3] 0.204320  [4] 0.169597  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000172  [1] 0.000974  [2] 0.007336  [3] 0.487303  [4] 0.233732  [5] 0.008677  [6] 0.000000  
+[7] : [0] 0.000049  [1] 0.000430  [2] 0.001202  [3] 0.034819  [4] 0.056726  [5] 0.003015  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000008  [2] 0.001246  [3] 0.053893  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000038  [1] 0.000016  [2] 0.001249  [3] 0.164999  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000373  [3] 0.022425  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000379  [3] 0.017763  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000133  [3] 0.068626  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000407  [3] 0.012913  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000377  [3] 0.103158  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000354  [3] 0.062647  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000723  [3] 0.312611  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000133  [3] 0.004866  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000118  [3] 0.009276  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000101  [3] 0.094023  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 2
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 12.013344
+   max : 12.013344
+   min : 12.013344
+   profile total : 2.772183
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.834889
+   max : 0.834889
+   min : 0.834889
+< Result - Test >
+ -TIME
+   avg : 0.759020
+   max : 0.759020
+   min : 0.759020
+   profile total : 0.711406
+ -ERROR RATE
+   avg : 0.840000
+   max : 0.840000
+   min : 0.840000
+< Extract Data Set : ./dataset/en_10k_parsed/qa3_three-supporting-facts_train_set, ./dataset/en_10k_parsed/qa3_three-supporting-facts_train_set, ./dataset/en_10k_parsed/qa3_three-supporting-facts_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 35 words
+    NULL Mary moved to the bathroom Sandra journeyed bedroom got football there John went back office took milk Daniel kitchen hallway apple left travelled garden dropped Where was before picked up grabbed discarded put down 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 85
+    Dim of Word : 7
+    Dim of Dict : 35
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 85
+    Dim of Word : 7
+    Dim of Dict : 35
+< Sample Init. >
+< Layer Construction >
+    Dim input : 85
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 85, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 85, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 85, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 85, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 85, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 85, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 85, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 85, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 85, f_shift_based: false
+ < cross_entropy_constructor > - dim: 85
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -1382.459717, -164.958206, -164.958206, error: 0.834222, 0.846000, 0.846000
+< Test Phase >
+err(test) : 0.833000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000173  [1] 0.001381  [2] 0.003742  [3] 0.114908  [4] 0.159373  [5] 0.017831  [6] 0.000000  
+[1] : [0] 0.000165  [1] 0.001357  [2] 0.003785  [3] 0.104538  [4] 0.158829  [5] 0.017861  [6] 0.000000  
+[2] : [0] 0.000617  [1] 0.000481  [2] 0.001292  [3] 0.195407  [4] 0.053597  [5] 0.002944  [6] 0.000000  
+[3] : [0] 0.000082  [1] 0.000065  [2] 0.003848  [3] 0.098789  [4] 0.164556  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000047  [1] 0.000022  [2] 0.003774  [3] 0.256318  [4] 0.075959  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000077  [1] 0.000064  [2] 0.003678  [3] 0.203798  [4] 0.166077  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000188  [1] 0.000959  [2] 0.007451  [3] 0.873741  [4] 0.232400  [5] 0.008639  [6] 0.000000  
+[7] : [0] 0.000051  [1] 0.000438  [2] 0.001156  [3] 0.033242  [4] 0.054857  [5] 0.002953  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000007  [2] 0.001253  [3] 0.054927  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000035  [1] 0.000016  [2] 0.001242  [3] 0.263092  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000426  [3] 0.022464  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000362  [3] 0.017668  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000128  [3] 0.164810  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000383  [3] 0.013717  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000386  [3] 0.115629  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000409  [3] 0.062512  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000695  [3] 0.699055  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000114  [3] 0.005582  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000141  [3] 0.008426  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000125  [3] 0.192391  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 3
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 19.692511
+   max : 19.692511
+   min : 19.692511
+   profile total : 3.352096
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.834222
+   max : 0.834222
+   min : 0.834222
+< Result - Test >
+ -TIME
+   avg : 1.400006
+   max : 1.400006
+   min : 1.400006
+   profile total : 1.305423
+ -ERROR RATE
+   avg : 0.833000
+   max : 0.833000
+   min : 0.833000
+< Extract Data Set : ./dataset/en_10k_parsed/qa4_two-arg-relations_train_set, ./dataset/en_10k_parsed/qa4_two-arg-relations_train_set, ./dataset/en_10k_parsed/qa4_two-arg-relations_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 15 words
+    NULL The office is north of kitchen garden south What west hallway east bedroom bathroom 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 17
+    Dim of Word : 8
+    Dim of Dict : 15
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 17
+    Dim of Word : 8
+    Dim of Dict : 15
+< Sample Init. >
+< Layer Construction >
+    Dim input : 17
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 17, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 17, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 17, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 2, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 2, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 17, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 17, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 2, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 2, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 17, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 17, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 2, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 2, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 17, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 17, f_shift_based: false
+ < cross_entropy_constructor > - dim: 17
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -2530.505615, -328.719177, -328.719177, error: 0.607000, 0.650000, 0.650000
+< Test Phase >
+err(test) : 0.609000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000179  [1] 0.000318  [2] 0.003777  [3] 0.117594  [4] 0.156070  [5] 0.010268  [6] 0.000000  
+[1] : [0] 0.000171  [1] 0.000319  [2] 0.003599  [3] 0.108163  [4] 0.159486  [5] 0.010320  [6] 0.000000  
+[2] : [0] 0.000115  [1] 0.000149  [2] 0.001253  [3] 0.047965  [4] 0.056302  [5] 0.002995  [6] 0.000000  
+[3] : [0] 0.000081  [1] 0.000038  [2] 0.003783  [3] 0.093955  [4] 0.168090  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000049  [1] 0.000020  [2] 0.003841  [3] 0.229606  [4] 0.075684  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000083  [1] 0.000035  [2] 0.003751  [3] 0.197552  [4] 0.167100  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000202  [1] 0.000987  [2] 0.007353  [3] 0.275731  [4] 0.232167  [5] 0.008559  [6] 0.000000  
+[7] : [0] 0.000053  [1] 0.000104  [2] 0.001166  [3] 0.032770  [4] 0.055917  [5] 0.002918  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000007  [2] 0.001276  [3] 0.054169  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000041  [1] 0.000016  [2] 0.001232  [3] 0.106735  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000370  [3] 0.021218  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000367  [3] 0.017683  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000142  [3] 0.016368  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000395  [3] 0.014101  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000364  [3] 0.092280  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000357  [3] 0.062067  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000739  [3] 0.103102  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000112  [3] 0.003981  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000124  [3] 0.006801  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000114  [3] 0.040011  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 4
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.094247
+   max : 7.094247
+   min : 7.094247
+   profile total : 2.404128
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.607000
+   max : 0.607000
+   min : 0.607000
+< Result - Test >
+ -TIME
+   avg : 0.404039
+   max : 0.404039
+   min : 0.404039
+   profile total : 0.380696
+ -ERROR RATE
+   avg : 0.609000
+   max : 0.609000
+   min : 0.609000
+< Extract Data Set : ./dataset/en_10k_parsed/qa5_three-arg-relations_train_set, ./dataset/en_10k_parsed/qa5_three-arg-relations_train_set, ./dataset/en_10k_parsed/qa5_three-arg-relations_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 40 words
+    NULL Bill travelled to the office picked up football there went bedroom gave Fred What did give handed Jeff back Who received got milk garden hallway journeyed moved bathroom Mary kitchen took apple left passed put down grabbed dropped discarded 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 90
+    Dim of Word : 7
+    Dim of Dict : 40
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 90
+    Dim of Word : 7
+    Dim of Dict : 40
+< Sample Init. >
+< Layer Construction >
+    Dim input : 90
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 90, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 90, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 90, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 90, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 90, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 90, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 90, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 90, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 90, f_shift_based: false
+ < cross_entropy_constructor > - dim: 90
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -3547.197266, -566.433044, -566.433044, error: 0.465111, 0.390000, 0.390000
+< Test Phase >
+err(test) : 0.376000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000188  [1] 0.001456  [2] 0.003739  [3] 0.115852  [4] 0.156160  [5] 0.018233  [6] 0.000000  
+[1] : [0] 0.000171  [1] 0.001429  [2] 0.003661  [3] 0.103604  [4] 0.158616  [5] 0.018159  [6] 0.000000  
+[2] : [0] 0.000628  [1] 0.000508  [2] 0.001342  [3] 0.122123  [4] 0.054524  [5] 0.002990  [6] 0.000000  
+[3] : [0] 0.000089  [1] 0.000067  [2] 0.003841  [3] 0.093652  [4] 0.165056  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000052  [1] 0.000021  [2] 0.003798  [3] 0.249266  [4] 0.074731  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000086  [1] 0.000060  [2] 0.003680  [3] 0.201938  [4] 0.166454  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000194  [1] 0.000965  [2] 0.007262  [3] 0.580768  [4] 0.230189  [5] 0.008579  [6] 0.000000  
+[7] : [0] 0.000056  [1] 0.000458  [2] 0.001174  [3] 0.033129  [4] 0.055541  [5] 0.003001  [6] 0.000000  
+[8] : [0] 0.000015  [1] 0.000007  [2] 0.001230  [3] 0.053898  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000036  [1] 0.000015  [2] 0.001229  [3] 0.188085  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000403  [3] 0.023097  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000364  [3] 0.017411  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000147  [3] 0.087953  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000366  [3] 0.013230  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000383  [3] 0.109993  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000403  [3] 0.062473  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000709  [3] 0.389966  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000104  [3] 0.005378  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000132  [3] 0.008725  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000119  [3] 0.114960  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 5
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 13.625818
+   max : 13.625818
+   min : 13.625818
+   profile total : 2.892005
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.465111
+   max : 0.465111
+   min : 0.465111
+< Result - Test >
+ -TIME
+   avg : 0.893097
+   max : 0.893097
+   min : 0.893097
+   profile total : 0.836316
+ -ERROR RATE
+   avg : 0.376000
+   max : 0.376000
+   min : 0.376000
+< Extract Data Set : ./dataset/en_10k_parsed/qa6_yes-no-questions_train_set, ./dataset/en_10k_parsed/qa6_yes-no-questions_train_set, ./dataset/en_10k_parsed/qa6_yes-no-questions_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 36 words
+    NULL Mary moved to the bathroom Sandra journeyed bedroom Is in hallway no went back Daniel kitchen office picked up football there yes John travelled garden got apple put down grabbed left dropped took milk discarded 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 62
+    Dim of Word : 7
+    Dim of Dict : 36
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 62
+    Dim of Word : 7
+    Dim of Dict : 36
+< Sample Init. >
+< Layer Construction >
+    Dim input : 62
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 62, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 26, dim_out: 60, dim_in: 62, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 26, dim_out: 60, dim_in: 62, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 26, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 26, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 26, dim_y: 60, dim_vec: 26, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 26, dim_out: 60, dim_in: 62, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 26, dim_out: 60, dim_in: 62, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 26, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 26, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 26, dim_y: 60, dim_vec: 26, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 26, dim_out: 60, dim_in: 62, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 26, dim_out: 60, dim_in: 62, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 26, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 26, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 26, dim_y: 60, dim_vec: 26, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 62, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 62, f_shift_based: false
+ < cross_entropy_constructor > - dim: 62
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -4262.446289, -500.013885, -500.013885, error: 0.515000, 0.497000, 0.497000
+< Test Phase >
+err(test) : 0.497000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000223  [1] 0.001003  [2] 0.003848  [3] 0.115483  [4] 0.154679  [5] 0.015295  [6] 0.000000  
+[1] : [0] 0.000175  [1] 0.001007  [2] 0.003886  [3] 0.103789  [4] 0.158646  [5] 0.015385  [6] 0.000000  
+[2] : [0] 0.000121  [1] 0.000368  [2] 0.001301  [3] 0.050657  [4] 0.055035  [5] 0.003073  [6] 0.000000  
+[3] : [0] 0.000084  [1] 0.000050  [2] 0.003845  [3] 0.094618  [4] 0.164680  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000053  [1] 0.000020  [2] 0.003736  [3] 0.237309  [4] 0.075806  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000084  [1] 0.000045  [2] 0.003674  [3] 0.199937  [4] 0.166077  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000183  [1] 0.000958  [2] 0.007259  [3] 0.289878  [4] 0.230441  [5] 0.008554  [6] 0.000000  
+[7] : [0] 0.000049  [1] 0.000323  [2] 0.001157  [3] 0.032954  [4] 0.055544  [5] 0.002883  [6] 0.000000  
+[8] : [0] 0.000013  [1] 0.000007  [2] 0.001234  [3] 0.053664  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000035  [1] 0.000015  [2] 0.001286  [3] 0.114076  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000421  [3] 0.021763  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000386  [3] 0.018528  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000127  [3] 0.020507  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000377  [3] 0.012903  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000395  [3] 0.100421  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000374  [3] 0.063091  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000704  [3] 0.117638  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000122  [3] 0.004974  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000122  [3] 0.008353  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000119  [3] 0.045641  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 6
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 8.069735
+   max : 8.069735
+   min : 8.069735
+   profile total : 2.434505
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.515000
+   max : 0.515000
+   min : 0.515000
+< Result - Test >
+ -TIME
+   avg : 0.446225
+   max : 0.446225
+   min : 0.446225
+   profile total : 0.416966
+ -ERROR RATE
+   avg : 0.497000
+   max : 0.497000
+   min : 0.497000
+< Extract Data Set : ./dataset/en_10k_parsed/qa7_counting_train_set, ./dataset/en_10k_parsed/qa7_counting_train_set, ./dataset/en_10k_parsed/qa7_counting_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 44 words
+    NULL Mary moved to the bathroom Sandra journeyed bedroom John went kitchen took football there How many objects is carrying one back office Daniel garden travelled hallway dropped none got picked up apple milk discarded handed grabbed put down two gave left passed three 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 94
+    Dim of Word : 7
+    Dim of Dict : 44
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 94
+    Dim of Word : 7
+    Dim of Dict : 44
+< Sample Init. >
+< Layer Construction >
+    Dim input : 94
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 94, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 94, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 94, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 94, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 94, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 94, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 94, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 94, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 94, f_shift_based: false
+ < cross_entropy_constructor > - dim: 94
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -4562.259766, -512.222656, -512.222656, error: 0.414667, 0.507000, 0.507000
+< Test Phase >
+err(test) : 0.532000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000187  [1] 0.001515  [2] 0.003777  [3] 0.116044  [4] 0.155942  [5] 0.018595  [6] 0.000000  
+[1] : [0] 0.000181  [1] 0.001494  [2] 0.003705  [3] 0.102501  [4] 0.157711  [5] 0.018560  [6] 0.000000  
+[2] : [0] 0.000626  [1] 0.000525  [2] 0.001240  [3] 0.070653  [4] 0.054237  [5] 0.003036  [6] 0.000000  
+[3] : [0] 0.000093  [1] 0.000065  [2] 0.003860  [3] 0.093731  [4] 0.165213  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000056  [1] 0.000023  [2] 0.003691  [3] 0.243080  [4] 0.073893  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000091  [1] 0.000061  [2] 0.003733  [3] 0.198214  [4] 0.166218  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000200  [1] 0.000960  [2] 0.007258  [3] 0.372784  [4] 0.229397  [5] 0.008527  [6] 0.000000  
+[7] : [0] 0.000053  [1] 0.000487  [2] 0.001191  [3] 0.034411  [4] 0.055114  [5] 0.002932  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000007  [2] 0.001270  [3] 0.053158  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000034  [1] 0.000015  [2] 0.001277  [3] 0.136486  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000345  [3] 0.022092  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000374  [3] 0.018628  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000131  [3] 0.037789  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000403  [3] 0.013251  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000347  [3] 0.102687  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000356  [3] 0.062150  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000754  [3] 0.187900  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000118  [3] 0.005553  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000113  [3] 0.008844  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000123  [3] 0.064450  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 7
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 9.816150
+   max : 9.816150
+   min : 9.816150
+   profile total : 2.568126
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.414667
+   max : 0.414667
+   min : 0.414667
+< Result - Test >
+ -TIME
+   avg : 0.562723
+   max : 0.562723
+   min : 0.562723
+   profile total : 0.526408
+ -ERROR RATE
+   avg : 0.532000
+   max : 0.532000
+   min : 0.532000
+< Extract Data Set : ./dataset/en_10k_parsed/qa8_lists-sets_train_set, ./dataset/en_10k_parsed/qa8_lists-sets_train_set, ./dataset/en_10k_parsed/qa8_lists-sets_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 48 words
+    NULL Mary moved to the bathroom Sandra journeyed bedroom got football there John went kitchen What is carrying dropped nothing took back office milk garden Daniel hallway travelled apple picked up discarded grabbed left put down football,apple milk,apple apple,football football,milk milk,football milk,football,apple apple,milk apple,milk,football apple,football,milk football,milk,apple milk,apple,football football,apple,milk 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 98
+    Dim of Word : 7
+    Dim of Dict : 48
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 98
+    Dim of Word : 7
+    Dim of Dict : 48
+< Sample Init. >
+< Layer Construction >
+    Dim input : 98
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 98, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 98, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 98, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 98, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 98, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 98, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 50, dim_out: 60, dim_in: 98, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 50, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 50, dim_y: 60, dim_vec: 50, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 98, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 98, f_shift_based: false
+ < cross_entropy_constructor > - dim: 98
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -3484.858398, -409.436340, -409.436340, error: 0.473667, 0.514000, 0.514000
+< Test Phase >
+err(test) : 0.505000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000195  [1] 0.001568  [2] 0.003809  [3] 0.116166  [4] 0.157070  [5] 0.018929  [6] 0.000000  
+[1] : [0] 0.000173  [1] 0.001540  [2] 0.003755  [3] 0.102666  [4] 0.157578  [5] 0.019005  [6] 0.000000  
+[2] : [0] 0.000628  [1] 0.000543  [2] 0.001286  [3] 0.079614  [4] 0.053686  [5] 0.003001  [6] 0.000000  
+[3] : [0] 0.000094  [1] 0.000063  [2] 0.003848  [3] 0.094407  [4] 0.165131  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000051  [1] 0.000023  [2] 0.003814  [3] 0.246388  [4] 0.073929  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000090  [1] 0.000064  [2] 0.003657  [3] 0.198923  [4] 0.166588  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000201  [1] 0.000963  [2] 0.007200  [3] 0.410041  [4] 0.229228  [5] 0.008506  [6] 0.000000  
+[7] : [0] 0.000055  [1] 0.000499  [2] 0.001165  [3] 0.035070  [4] 0.055107  [5] 0.002900  [6] 0.000000  
+[8] : [0] 0.000015  [1] 0.000007  [2] 0.001235  [3] 0.052819  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000037  [1] 0.000016  [2] 0.001220  [3] 0.146000  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000368  [3] 0.022395  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000381  [3] 0.016219  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000121  [3] 0.049771  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000394  [3] 0.014314  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000364  [3] 0.108473  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000377  [3] 0.062787  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000730  [3] 0.235744  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000113  [3] 0.006449  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000126  [3] 0.008935  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000135  [3] 0.076910  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 8
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 10.474578
+   max : 10.474578
+   min : 10.474578
+   profile total : 2.630566
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.473667
+   max : 0.473667
+   min : 0.473667
+< Result - Test >
+ -TIME
+   avg : 0.642104
+   max : 0.642104
+   min : 0.642104
+   profile total : 0.605106
+ -ERROR RATE
+   avg : 0.505000
+   max : 0.505000
+   min : 0.505000
+< Extract Data Set : ./dataset/en_10k_parsed/qa9_simple-negation_train_set, ./dataset/en_10k_parsed/qa9_simple-negation_train_set, ./dataset/en_10k_parsed/qa9_simple-negation_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 24 words
+    NULL Mary is no longer in the bedroom Daniel moved to hallway Sandra bathroom not office went John kitchen travelled back garden yes journeyed 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 34
+    Dim of Word : 8
+    Dim of Dict : 24
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 34
+    Dim of Word : 8
+    Dim of Dict : 24
+< Sample Init. >
+< Layer Construction >
+    Dim input : 34
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 34, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 34, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 34, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 34, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 34, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 34, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 34, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 34, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 34, f_shift_based: false
+ < cross_entropy_constructor > - dim: 34
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -4618.861328, -594.479614, -594.479614, error: 0.433000, 0.359000, 0.359000
+< Test Phase >
+err(test) : 0.362000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000208  [1] 0.000575  [2] 0.003760  [3] 0.115983  [4] 0.154240  [5] 0.012017  [6] 0.000000  
+[1] : [0] 0.000185  [1] 0.000588  [2] 0.003840  [3] 0.104161  [4] 0.158921  [5] 0.012066  [6] 0.000000  
+[2] : [0] 0.000130  [1] 0.000230  [2] 0.001300  [3] 0.049715  [4] 0.055578  [5] 0.003039  [6] 0.000000  
+[3] : [0] 0.000088  [1] 0.000040  [2] 0.003896  [3] 0.094506  [4] 0.164835  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000050  [1] 0.000020  [2] 0.003730  [3] 0.234773  [4] 0.075223  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000082  [1] 0.000039  [2] 0.003656  [3] 0.199003  [4] 0.166153  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000214  [1] 0.001002  [2] 0.007313  [3] 0.285273  [4] 0.230374  [5] 0.008564  [6] 0.000000  
+[7] : [0] 0.000051  [1] 0.000186  [2] 0.001192  [3] 0.032852  [4] 0.055520  [5] 0.002948  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000008  [2] 0.001207  [3] 0.054044  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000037  [1] 0.000015  [2] 0.001252  [3] 0.110337  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000378  [3] 0.022289  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000357  [3] 0.016938  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000137  [3] 0.019379  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000389  [3] 0.013896  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000395  [3] 0.098707  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000375  [3] 0.062389  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000722  [3] 0.114882  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000107  [3] 0.004411  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000124  [3] 0.007781  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000109  [3] 0.042905  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 9
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.749480
+   max : 7.749480
+   min : 7.749480
+   profile total : 2.415033
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.433000
+   max : 0.433000
+   min : 0.433000
+< Result - Test >
+ -TIME
+   avg : 0.433825
+   max : 0.433825
+   min : 0.433825
+   profile total : 0.406670
+ -ERROR RATE
+   avg : 0.362000
+   max : 0.362000
+   min : 0.362000
+< Extract Data Set : ./dataset/en_10k_parsed/qa10_indefinite-knowledge_train_set, ./dataset/en_10k_parsed/qa10_indefinite-knowledge_train_set, ./dataset/en_10k_parsed/qa10_indefinite-knowledge_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 25 words
+    NULL Fred is either in the school or park Mary went back to office yes Bill kitchen moved cinema no maybe travelled Julie bedroom journeyed 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 35
+    Dim of Word : 10
+    Dim of Dict : 25
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 35
+    Dim of Word : 10
+    Dim of Dict : 25
+< Sample Init. >
+< Layer Construction >
+    Dim input : 35
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 35, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 35, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 35, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 35, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 35, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 35, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 35, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 35, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 35, f_shift_based: false
+ < cross_entropy_constructor > - dim: 35
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -3503.173340, -355.583557, -355.583557, error: 0.562667, 0.608000, 0.608000
+< Test Phase >
+err(test) : 0.563000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000202  [1] 0.000588  [2] 0.003783  [3] 0.115217  [4] 0.154145  [5] 0.012524  [6] 0.000000  
+[1] : [0] 0.000192  [1] 0.000591  [2] 0.003827  [3] 0.104798  [4] 0.158608  [5] 0.012665  [6] 0.000000  
+[2] : [0] 0.000135  [1] 0.000235  [2] 0.001284  [3] 0.049648  [4] 0.055310  [5] 0.003032  [6] 0.000000  
+[3] : [0] 0.000092  [1] 0.000042  [2] 0.003840  [3] 0.094366  [4] 0.165149  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000050  [1] 0.000021  [2] 0.003753  [3] 0.235882  [4] 0.075380  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000089  [1] 0.000040  [2] 0.003696  [3] 0.198726  [4] 0.165760  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000217  [1] 0.000974  [2] 0.007238  [3] 0.285646  [4] 0.230074  [5] 0.008510  [6] 0.000000  
+[7] : [0] 0.000052  [1] 0.000190  [2] 0.001174  [3] 0.032071  [4] 0.055236  [5] 0.002918  [6] 0.000000  
+[8] : [0] 0.000015  [1] 0.000007  [2] 0.001193  [3] 0.053425  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000037  [1] 0.000016  [2] 0.001245  [3] 0.111195  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000453  [3] 0.022602  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000398  [3] 0.017317  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000121  [3] 0.019313  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000353  [3] 0.014366  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000365  [3] 0.098762  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000401  [3] 0.062351  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000713  [3] 0.114984  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000097  [3] 0.004540  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000125  [3] 0.008338  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000114  [3] 0.042484  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 10
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.773216
+   max : 7.773216
+   min : 7.773216
+   profile total : 2.415103
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.562667
+   max : 0.562667
+   min : 0.562667
+< Result - Test >
+ -TIME
+   avg : 0.435689
+   max : 0.435689
+   min : 0.435689
+   profile total : 0.408197
+ -ERROR RATE
+   avg : 0.563000
+   max : 0.563000
+   min : 0.563000
+< Extract Data Set : ./dataset/en_10k_parsed/qa11_basic-coreference_train_set, ./dataset/en_10k_parsed/qa11_basic-coreference_train_set, ./dataset/en_10k_parsed/qa11_basic-coreference_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 27 words
+    NULL Mary went back to the bathroom After that she bedroom Where is Daniel moved office Afterwards he hallway John travelled journeyed Following garden Sandra Then kitchen 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 37
+    Dim of Word : 9
+    Dim of Dict : 27
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 37
+    Dim of Word : 9
+    Dim of Dict : 27
+< Sample Init. >
+< Layer Construction >
+    Dim input : 37
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 37, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 37, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 37, f_shift_based: false
+ < cross_entropy_constructor > - dim: 37
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -3921.007812, -466.845551, -466.845551, error: 0.396444, 0.499000, 0.499000
+< Test Phase >
+err(test) : 0.479000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000207  [1] 0.000609  [2] 0.003679  [3] 0.115391  [4] 0.154797  [5] 0.012785  [6] 0.000000  
+[1] : [0] 0.000190  [1] 0.000617  [2] 0.003749  [3] 0.105902  [4] 0.158801  [5] 0.012850  [6] 0.000000  
+[2] : [0] 0.000136  [1] 0.000261  [2] 0.001345  [3] 0.050070  [4] 0.055431  [5] 0.003062  [6] 0.000000  
+[3] : [0] 0.000095  [1] 0.000041  [2] 0.003852  [3] 0.094338  [4] 0.165167  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000052  [1] 0.000020  [2] 0.003852  [3] 0.239379  [4] 0.075416  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000088  [1] 0.000039  [2] 0.003675  [3] 0.199734  [4] 0.166363  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000209  [1] 0.000958  [2] 0.007317  [3] 0.286803  [4] 0.230894  [5] 0.008495  [6] 0.000000  
+[7] : [0] 0.000052  [1] 0.000202  [2] 0.001198  [3] 0.032160  [4] 0.055410  [5] 0.002923  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000007  [2] 0.001244  [3] 0.052998  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000036  [1] 0.000016  [2] 0.001238  [3] 0.111195  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000364  [3] 0.021934  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000361  [3] 0.016914  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000162  [3] 0.019527  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000383  [3] 0.014251  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000413  [3] 0.103549  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000392  [3] 0.062558  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000690  [3] 0.114737  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000113  [3] 0.004968  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000136  [3] 0.007259  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000104  [3] 0.043198  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 11
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.804923
+   max : 7.804923
+   min : 7.804923
+   profile total : 2.425362
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.396444
+   max : 0.396444
+   min : 0.396444
+< Result - Test >
+ -TIME
+   avg : 0.439713
+   max : 0.439713
+   min : 0.439713
+   profile total : 0.412013
+ -ERROR RATE
+   avg : 0.479000
+   max : 0.479000
+   min : 0.479000
+< Extract Data Set : ./dataset/en_10k_parsed/qa12_conjunction_train_set, ./dataset/en_10k_parsed/qa12_conjunction_train_set, ./dataset/en_10k_parsed/qa12_conjunction_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 21 words
+    NULL Mary and Daniel travelled to the bathroom John office Where is Sandra moved kitchen garden went bedroom hallway back journeyed 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 31
+    Dim of Word : 9
+    Dim of Dict : 21
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 31
+    Dim of Word : 9
+    Dim of Dict : 21
+< Sample Init. >
+< Layer Construction >
+    Dim input : 31
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 31, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 31, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 31, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 31, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 31, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 31, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 31, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 31, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 31, f_shift_based: false
+ < cross_entropy_constructor > - dim: 31
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -3841.244873, -402.024811, -402.024811, error: 0.390444, 0.583000, 0.583000
+< Test Phase >
+err(test) : 0.601000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000198  [1] 0.000537  [2] 0.003786  [3] 0.115760  [4] 0.154159  [5] 0.011511  [6] 0.000000  
+[1] : [0] 0.000193  [1] 0.000529  [2] 0.003683  [3] 0.104161  [4] 0.158498  [5] 0.011553  [6] 0.000000  
+[2] : [0] 0.000141  [1] 0.000217  [2] 0.001270  [3] 0.045938  [4] 0.055628  [5] 0.003046  [6] 0.000000  
+[3] : [0] 0.000095  [1] 0.000041  [2] 0.003767  [3] 0.094572  [4] 0.165536  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000056  [1] 0.000020  [2] 0.003818  [3] 0.237250  [4] 0.074952  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000089  [1] 0.000051  [2] 0.003716  [3] 0.197747  [4] 0.166721  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000218  [1] 0.000970  [2] 0.007106  [3] 0.275852  [4] 0.230423  [5] 0.008581  [6] 0.000000  
+[7] : [0] 0.000054  [1] 0.000172  [2] 0.001130  [3] 0.032692  [4] 0.055725  [5] 0.002924  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000007  [2] 0.001267  [3] 0.053405  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000039  [1] 0.000016  [2] 0.001224  [3] 0.109110  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000401  [3] 0.021953  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000396  [3] 0.016260  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000114  [3] 0.015737  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000379  [3] 0.014381  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000376  [3] 0.101884  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000352  [3] 0.062008  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000699  [3] 0.104543  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000113  [3] 0.004703  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000117  [3] 0.007683  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000109  [3] 0.040872  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 12
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.596231
+   max : 7.596231
+   min : 7.596231
+   profile total : 2.400168
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.390444
+   max : 0.390444
+   min : 0.390444
+< Result - Test >
+ -TIME
+   avg : 0.419710
+   max : 0.419710
+   min : 0.419710
+   profile total : 0.393080
+ -ERROR RATE
+   avg : 0.601000
+   max : 0.601000
+   min : 0.601000
+< Extract Data Set : ./dataset/en_10k_parsed/qa13_compound-coreference_train_set, ./dataset/en_10k_parsed/qa13_compound-coreference_train_set, ./dataset/en_10k_parsed/qa13_compound-coreference_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 27 words
+    NULL Mary and Daniel went to the bathroom Then they journeyed hallway Where is Sandra John moved kitchen office bedroom travelled After that back Following Afterwards garden 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 37
+    Dim of Word : 9
+    Dim of Dict : 27
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 37
+    Dim of Word : 9
+    Dim of Dict : 27
+< Sample Init. >
+< Layer Construction >
+    Dim input : 37
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 37, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 10, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 10, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 10, dim_y: 60, dim_vec: 10, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 37, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 37, f_shift_based: false
+ < cross_entropy_constructor > - dim: 37
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -5745.665527, -665.235535, -665.235535, error: 0.216667, 0.231000, 0.231000
+< Test Phase >
+err(test) : 0.250000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000212  [1] 0.000623  [2] 0.004102  [3] 0.124530  [4] 0.168663  [5] 0.013590  [6] 0.000000  
+[1] : [0] 0.000190  [1] 0.000619  [2] 0.003968  [3] 0.112707  [4] 0.172610  [5] 0.013701  [6] 0.000000  
+[2] : [0] 0.000135  [1] 0.000243  [2] 0.001401  [3] 0.052611  [4] 0.060302  [5] 0.003318  [6] 0.000000  
+[3] : [0] 0.000098  [1] 0.000040  [2] 0.004200  [3] 0.102215  [4] 0.179677  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000054  [1] 0.000020  [2] 0.004157  [3] 0.249082  [4] 0.081896  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000092  [1] 0.000038  [2] 0.003984  [3] 0.209452  [4] 0.181632  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000215  [1] 0.000956  [2] 0.007917  [3] 0.300439  [4] 0.251058  [5] 0.009178  [6] 0.000000  
+[7] : [0] 0.000053  [1] 0.000200  [2] 0.001273  [3] 0.035112  [4] 0.060302  [5] 0.003131  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000007  [2] 0.001413  [3] 0.057959  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000038  [1] 0.000016  [2] 0.001374  [3] 0.117004  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000405  [3] 0.022056  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000363  [3] 0.015271  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000126  [3] 0.019518  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000364  [3] 0.014470  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000417  [3] 0.101505  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000383  [3] 0.062836  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000707  [3] 0.115497  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000115  [3] 0.004597  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000130  [3] 0.007671  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000121  [3] 0.043036  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 13
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.833138
+   max : 7.833138
+   min : 7.833138
+   profile total : 2.597821
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.216667
+   max : 0.216667
+   min : 0.216667
+< Result - Test >
+ -TIME
+   avg : 0.437738
+   max : 0.437738
+   min : 0.437738
+   profile total : 0.409588
+ -ERROR RATE
+   avg : 0.250000
+   max : 0.250000
+   min : 0.250000
+< Extract Data Set : ./dataset/en_10k_parsed/qa14_time-reasoning_train_set, ./dataset/en_10k_parsed/qa14_time-reasoning_train_set, ./dataset/en_10k_parsed/qa14_time-reasoning_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 26 words
+    NULL Bill went back to the cinema yesterday Julie school this morning Fred park office Where was before afternoon travelled Mary evening moved kitchen journeyed bedroom 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 40
+    Dim of Word : 9
+    Dim of Dict : 26
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 40
+    Dim of Word : 9
+    Dim of Dict : 26
+< Sample Init. >
+< Layer Construction >
+    Dim input : 40
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 40, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 14, dim_out: 60, dim_in: 40, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 14, dim_out: 60, dim_in: 40, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 14, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 14, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 14, dim_y: 60, dim_vec: 14, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 14, dim_out: 60, dim_in: 40, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 14, dim_out: 60, dim_in: 40, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 14, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 14, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 14, dim_y: 60, dim_vec: 14, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 14, dim_out: 60, dim_in: 40, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 14, dim_out: 60, dim_in: 40, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 14, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 14, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 14, dim_y: 60, dim_vec: 14, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 40, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 40, f_shift_based: false
+ < cross_entropy_constructor > - dim: 40
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -1714.943604, -170.293091, -170.293091, error: 0.742556, 0.847000, 0.847000
+< Test Phase >
+err(test) : 0.838000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000227  [1] 0.000667  [2] 0.004142  [3] 0.123447  [4] 0.168181  [5] 0.013811  [6] 0.000000  
+[1] : [0] 0.000202  [1] 0.000666  [2] 0.004124  [3] 0.112763  [4] 0.171936  [5] 0.013898  [6] 0.000000  
+[2] : [0] 0.000136  [1] 0.000258  [2] 0.001399  [3] 0.057416  [4] 0.060106  [5] 0.003289  [6] 0.000000  
+[3] : [0] 0.000098  [1] 0.000042  [2] 0.004169  [3] 0.100426  [4] 0.179321  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000054  [1] 0.000022  [2] 0.004134  [3] 0.251410  [4] 0.082095  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000096  [1] 0.000046  [2] 0.004027  [3] 0.208431  [4] 0.180980  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000216  [1] 0.000979  [2] 0.007936  [3] 0.320119  [4] 0.250721  [5] 0.009172  [6] 0.000000  
+[7] : [0] 0.000058  [1] 0.000221  [2] 0.001326  [3] 0.034733  [4] 0.060053  [5] 0.003164  [6] 0.000000  
+[8] : [0] 0.000015  [1] 0.000007  [2] 0.001405  [3] 0.058040  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000038  [1] 0.000016  [2] 0.001276  [3] 0.121542  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000404  [3] 0.021776  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000397  [3] 0.016931  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000137  [3] 0.024685  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000389  [3] 0.013807  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000360  [3] 0.103805  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000364  [3] 0.061876  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000721  [3] 0.136196  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000111  [3] 0.004407  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000111  [3] 0.007109  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000117  [3] 0.048986  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 14
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 8.304962
+   max : 8.304962
+   min : 8.304962
+   profile total : 2.623056
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.742556
+   max : 0.742556
+   min : 0.742556
+< Result - Test >
+ -TIME
+   avg : 0.473462
+   max : 0.473462
+   min : 0.473462
+   profile total : 0.442689
+ -ERROR RATE
+   avg : 0.838000
+   max : 0.838000
+   min : 0.838000
+< Extract Data Set : ./dataset/en_10k_parsed/qa15_basic-deduction_train_set, ./dataset/en_10k_parsed/qa15_basic-deduction_train_set, ./dataset/en_10k_parsed/qa15_basic-deduction_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 18 words
+    NULL Mice are afraid of wolves Gertrude is a mouse Cats sheep Winona Emily Jessica wolf What cat 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 26
+    Dim of Word : 6
+    Dim of Dict : 18
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 26
+    Dim of Word : 6
+    Dim of Dict : 18
+< Sample Init. >
+< Layer Construction >
+    Dim input : 26
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 26, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 8, dim_out: 60, dim_in: 26, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 8, dim_out: 60, dim_in: 26, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 8, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 8, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 8, dim_y: 60, dim_vec: 8, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 8, dim_out: 60, dim_in: 26, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 8, dim_out: 60, dim_in: 26, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 8, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 8, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 8, dim_y: 60, dim_vec: 8, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 8, dim_out: 60, dim_in: 26, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 8, dim_out: 60, dim_in: 26, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 8, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 8, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 8, dim_y: 60, dim_vec: 8, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 26, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 26, f_shift_based: false
+ < cross_entropy_constructor > - dim: 26
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -2882.460938, -392.475311, -392.475311, error: 0.584222, 0.548000, 0.548000
+< Test Phase >
+err(test) : 0.531000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000218  [1] 0.000454  [2] 0.003819  [3] 0.115433  [4] 0.154022  [5] 0.010972  [6] 0.000000  
+[1] : [0] 0.000193  [1] 0.000455  [2] 0.003740  [3] 0.105503  [4] 0.159012  [5] 0.011079  [6] 0.000000  
+[2] : [0] 0.000140  [1] 0.000203  [2] 0.001278  [3] 0.045678  [4] 0.055786  [5] 0.003040  [6] 0.000000  
+[3] : [0] 0.000102  [1] 0.000040  [2] 0.003931  [3] 0.093566  [4] 0.165611  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000056  [1] 0.000020  [2] 0.003735  [3] 0.244143  [4] 0.075491  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000091  [1] 0.000039  [2] 0.003644  [3] 0.199756  [4] 0.166646  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000230  [1] 0.000988  [2] 0.007264  [3] 0.270857  [4] 0.230766  [5] 0.008607  [6] 0.000000  
+[7] : [0] 0.000053  [1] 0.000149  [2] 0.001155  [3] 0.032187  [4] 0.055771  [5] 0.002996  [6] 0.000000  
+[8] : [0] 0.000014  [1] 0.000007  [2] 0.001212  [3] 0.053553  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000038  [1] 0.000016  [2] 0.001218  [3] 0.108484  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000417  [3] 0.021768  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000401  [3] 0.017754  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000133  [3] 0.015162  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000360  [3] 0.013881  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000370  [3] 0.107115  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000383  [3] 0.062759  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000736  [3] 0.099581  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000109  [3] 0.004584  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000121  [3] 0.007221  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000135  [3] 0.040482  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 15
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.607534
+   max : 7.607534
+   min : 7.607534
+   profile total : 2.403461
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.584222
+   max : 0.584222
+   min : 0.584222
+< Result - Test >
+ -TIME
+   avg : 0.419887
+   max : 0.419887
+   min : 0.419887
+   profile total : 0.393472
+ -ERROR RATE
+   avg : 0.531000
+   max : 0.531000
+   min : 0.531000
+< Extract Data Set : ./dataset/en_10k_parsed/qa16_basic-induction_train_set, ./dataset/en_10k_parsed/qa16_basic-induction_train_set, ./dataset/en_10k_parsed/qa16_basic-induction_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 18 words
+    NULL Lily is a frog Bernhard green Brian lion white Julius swan Greg What color rhino gray yellow 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 27
+    Dim of Word : 5
+    Dim of Dict : 18
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 27
+    Dim of Word : 5
+    Dim of Dict : 18
+< Sample Init. >
+< Layer Construction >
+    Dim input : 27
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 27, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 9, dim_out: 60, dim_in: 27, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 9, dim_out: 60, dim_in: 27, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 9, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 9, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 9, dim_y: 60, dim_vec: 9, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 9, dim_out: 60, dim_in: 27, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 9, dim_out: 60, dim_in: 27, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 9, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 9, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 9, dim_y: 60, dim_vec: 9, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 9, dim_out: 60, dim_in: 27, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 9, dim_out: 60, dim_in: 27, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 9, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 9, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 9, dim_y: 60, dim_vec: 9, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 27, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 27, f_shift_based: false
+ < cross_entropy_constructor > - dim: 27
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -2857.358887, -365.733887, -365.733887, error: 0.604889, 0.570000, 0.570000
+< Test Phase >
+err(test) : 0.558000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000226  [1] 0.000474  [2] 0.003731  [3] 0.114393  [4] 0.152934  [5] 0.011075  [6] 0.000000  
+[1] : [0] 0.000209  [1] 0.000458  [2] 0.003834  [3] 0.105277  [4] 0.158652  [5] 0.011162  [6] 0.000000  
+[2] : [0] 0.000145  [1] 0.000205  [2] 0.001202  [3] 0.045682  [4] 0.056846  [5] 0.003040  [6] 0.000000  
+[3] : [0] 0.000099  [1] 0.000040  [2] 0.003850  [3] 0.092682  [4] 0.165295  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000053  [1] 0.000021  [2] 0.003787  [3] 0.239405  [4] 0.074209  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000092  [1] 0.000039  [2] 0.003771  [3] 0.198014  [4] 0.166727  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000231  [1] 0.000969  [2] 0.007349  [3] 0.271518  [4] 0.230994  [5] 0.008575  [6] 0.000000  
+[7] : [0] 0.000055  [1] 0.000152  [2] 0.001181  [3] 0.031674  [4] 0.056420  [5] 0.002981  [6] 0.000000  
+[8] : [0] 0.000015  [1] 0.000008  [2] 0.001259  [3] 0.052867  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000038  [1] 0.000015  [2] 0.001200  [3] 0.107039  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000369  [3] 0.022312  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000402  [3] 0.017884  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000145  [3] 0.015321  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000392  [3] 0.013297  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000380  [3] 0.103171  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000396  [3] 0.062128  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000721  [3] 0.099497  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000120  [3] 0.004425  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000121  [3] 0.007075  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000116  [3] 0.038841  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 16
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.572276
+   max : 7.572276
+   min : 7.572276
+   profile total : 2.392169
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.604889
+   max : 0.604889
+   min : 0.604889
+< Result - Test >
+ -TIME
+   avg : 0.413122
+   max : 0.413122
+   min : 0.413122
+   profile total : 0.387113
+ -ERROR RATE
+   avg : 0.558000
+   max : 0.558000
+   min : 0.558000
+< Extract Data Set : ./dataset/en_10k_parsed/qa17_positional-reasoning_train_set, ./dataset/en_10k_parsed/qa17_positional-reasoning_train_set, ./dataset/en_10k_parsed/qa17_positional-reasoning_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 19 words
+    NULL The triangle is above pink rectangle blue square to left of right yes below no red sphere yellow 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 21
+    Dim of Word : 12
+    Dim of Dict : 19
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 21
+    Dim of Word : 12
+    Dim of Dict : 19
+< Sample Init. >
+< Layer Construction >
+    Dim input : 21
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 21, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 21, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 21, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 2, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 2, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 21, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 21, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 2, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 2, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 21, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 2, dim_out: 60, dim_in: 21, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 2, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 2, dim_y: 60, dim_vec: 2, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 21, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 21, f_shift_based: false
+ < cross_entropy_constructor > - dim: 21
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -4349.535156, -479.338501, -479.338501, error: 0.511556, 0.531000, 0.531000
+< Test Phase >
+err(test) : 0.480000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000218  [1] 0.000389  [2] 0.003734  [3] 0.115594  [4] 0.153379  [5] 0.010386  [6] 0.000000  
+[1] : [0] 0.000204  [1] 0.000380  [2] 0.003667  [3] 0.103853  [4] 0.158547  [5] 0.010731  [6] 0.000000  
+[2] : [0] 0.000152  [1] 0.000179  [2] 0.001273  [3] 0.047204  [4] 0.057129  [5] 0.003025  [6] 0.000000  
+[3] : [0] 0.000094  [1] 0.000047  [2] 0.003958  [3] 0.093756  [4] 0.166227  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000057  [1] 0.000021  [2] 0.003745  [3] 0.228611  [4] 0.074114  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000088  [1] 0.000046  [2] 0.003647  [3] 0.198038  [4] 0.167009  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000260  [1] 0.001005  [2] 0.007342  [3] 0.277227  [4] 0.230148  [5] 0.008558  [6] 0.000000  
+[7] : [0] 0.000068  [1] 0.000122  [2] 0.001186  [3] 0.032302  [4] 0.056646  [5] 0.002918  [6] 0.000000  
+[8] : [0] 0.000017  [1] 0.000007  [2] 0.001246  [3] 0.053059  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000042  [1] 0.000016  [2] 0.001234  [3] 0.108803  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000366  [3] 0.022807  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000362  [3] 0.016507  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000126  [3] 0.016677  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000392  [3] 0.014362  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000384  [3] 0.093064  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000370  [3] 0.062709  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000727  [3] 0.104007  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000125  [3] 0.004376  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000117  [3] 0.007600  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000112  [3] 0.041008  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 17
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.203412
+   max : 7.203412
+   min : 7.203412
+   profile total : 2.391708
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.511556
+   max : 0.511556
+   min : 0.511556
+< Result - Test >
+ -TIME
+   avg : 0.410466
+   max : 0.410466
+   min : 0.410466
+   profile total : 0.386198
+ -ERROR RATE
+   avg : 0.480000
+   max : 0.480000
+   min : 0.480000
+< Extract Data Set : ./dataset/en_10k_parsed/qa18_size-reasoning_train_set, ./dataset/en_10k_parsed/qa18_size-reasoning_train_set, ./dataset/en_10k_parsed/qa18_size-reasoning_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 19 words
+    NULL The box of chocolates fits inside chest is bigger than suitcase container Does fit in no yes chocolate 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 39
+    Dim of Word : 10
+    Dim of Dict : 19
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 39
+    Dim of Word : 10
+    Dim of Dict : 19
+< Sample Init. >
+< Layer Construction >
+    Dim input : 39
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 39, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 20, dim_out: 60, dim_in: 39, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 20, dim_out: 60, dim_in: 39, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 20, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 20, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 20, dim_y: 60, dim_vec: 20, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 20, dim_out: 60, dim_in: 39, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 20, dim_out: 60, dim_in: 39, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 20, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 20, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 20, dim_y: 60, dim_vec: 20, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 20, dim_out: 60, dim_in: 39, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 20, dim_out: 60, dim_in: 39, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 20, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 20, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 20, dim_y: 60, dim_vec: 20, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 39, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 39, f_shift_based: false
+ < cross_entropy_constructor > - dim: 39
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -4346.583496, -502.387604, -502.387604, error: 0.502778, 0.465000, 0.465000
+< Test Phase >
+err(test) : 0.526000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000224  [1] 0.000666  [2] 0.003628  [3] 0.115483  [4] 0.154141  [5] 0.012866  [6] 0.000000  
+[1] : [0] 0.000221  [1] 0.000650  [2] 0.003654  [3] 0.105557  [4] 0.158580  [5] 0.013096  [6] 0.000000  
+[2] : [0] 0.000149  [1] 0.000257  [2] 0.001348  [3] 0.049999  [4] 0.055450  [5] 0.003053  [6] 0.000000  
+[3] : [0] 0.000108  [1] 0.000056  [2] 0.003798  [3] 0.093553  [4] 0.164843  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000057  [1] 0.000020  [2] 0.003781  [3] 0.233574  [4] 0.075422  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000102  [1] 0.000044  [2] 0.003658  [3] 0.199511  [4] 0.165845  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000231  [1] 0.000960  [2] 0.007355  [3] 0.287280  [4] 0.230351  [5] 0.008512  [6] 0.000000  
+[7] : [0] 0.000063  [1] 0.000211  [2] 0.001119  [3] 0.032405  [4] 0.055563  [5] 0.002920  [6] 0.000000  
+[8] : [0] 0.000016  [1] 0.000007  [2] 0.001253  [3] 0.053772  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000040  [1] 0.000015  [2] 0.001213  [3] 0.110964  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000360  [3] 0.022278  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000369  [3] 0.016076  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000107  [3] 0.019044  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000386  [3] 0.013629  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000362  [3] 0.099362  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000352  [3] 0.062004  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000687  [3] 0.114220  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000136  [3] 0.004902  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000119  [3] 0.006824  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000121  [3] 0.043520  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 18
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.824525
+   max : 7.824525
+   min : 7.824525
+   profile total : 2.417644
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.502778
+   max : 0.502778
+   min : 0.502778
+< Result - Test >
+ -TIME
+   avg : 0.431918
+   max : 0.431918
+   min : 0.431918
+   profile total : 0.404858
+ -ERROR RATE
+   avg : 0.526000
+   max : 0.526000
+   min : 0.526000
+< Extract Data Set : ./dataset/en_10k_parsed/qa19_path-finding_train_set, ./dataset/en_10k_parsed/qa19_path-finding_train_set, ./dataset/en_10k_parsed/qa19_path-finding_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 32 words
+    NULL The office is east of hallway kitchen north garden west bedroom bathroom How do you go from to s,e n,w south n,n s,w e,s s,s e,n w,w e,e n,e w,s w,n 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 37
+    Dim of Word : 8
+    Dim of Dict : 32
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 37
+    Dim of Word : 8
+    Dim of Dict : 32
+< Sample Init. >
+< Layer Construction >
+    Dim input : 37
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 37, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 5, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 5, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 5, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 5, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 5, dim_y: 60, dim_vec: 5, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 5, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 5, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 5, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 5, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 5, dim_y: 60, dim_vec: 5, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 5, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 5, dim_out: 60, dim_in: 37, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 5, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 5, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 5, dim_y: 60, dim_vec: 5, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 37, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 37, f_shift_based: false
+ < cross_entropy_constructor > - dim: 37
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -715.431580, -87.397232, -87.397232, error: 0.919444, 0.908000, 0.908000
+< Test Phase >
+err(test) : 0.910000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000236  [1] 0.000616  [2] 0.003903  [3] 0.116143  [4] 0.154384  [5] 0.012488  [6] 0.000000  
+[1] : [0] 0.000211  [1] 0.000614  [2] 0.003717  [3] 0.105973  [4] 0.160213  [5] 0.012565  [6] 0.000000  
+[2] : [0] 0.000149  [1] 0.000247  [2] 0.001299  [3] 0.044467  [4] 0.056740  [5] 0.003061  [6] 0.000000  
+[3] : [0] 0.000105  [1] 0.000038  [2] 0.003850  [3] 0.094118  [4] 0.166192  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000057  [1] 0.000022  [2] 0.003924  [3] 0.233281  [4] 0.074958  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000105  [1] 0.000036  [2] 0.003849  [3] 0.198121  [4] 0.167466  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000230  [1] 0.000958  [2] 0.007393  [3] 0.268553  [4] 0.231466  [5] 0.008548  [6] 0.000000  
+[7] : [0] 0.000061  [1] 0.000210  [2] 0.001179  [3] 0.032115  [4] 0.056411  [5] 0.002928  [6] 0.000000  
+[8] : [0] 0.000015  [1] 0.000007  [2] 0.001342  [3] 0.053560  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000043  [1] 0.000016  [2] 0.001156  [3] 0.105716  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000380  [3] 0.022349  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000383  [3] 0.016389  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000126  [3] 0.014020  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000366  [3] 0.014411  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000348  [3] 0.097756  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000382  [3] 0.061439  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000782  [3] 0.092797  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000115  [3] 0.004983  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000115  [3] 0.008150  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000153  [3] 0.037893  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 19
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.371813
+   max : 7.371813
+   min : 7.371813
+   profile total : 2.395055
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.919444
+   max : 0.919444
+   min : 0.919444
+< Result - Test >
+ -TIME
+   avg : 0.398907
+   max : 0.398907
+   min : 0.398907
+   profile total : 0.373337
+ -ERROR RATE
+   avg : 0.910000
+   max : 0.910000
+   min : 0.910000
+< Extract Data Set : ./dataset/en_10k_parsed/qa20_agents-motivations_train_set, ./dataset/en_10k_parsed/qa20_agents-motivations_train_set, ./dataset/en_10k_parsed/qa20_agents-motivations_test_set>
+number of samples : 10000
+number of samples : 10000
+< Make Dictionary >
+< Dictionary Info. >
+    Dictionary : 36 words
+    NULL Sumit is tired Where will go bedroom went back to the Why did grabbed pajamas there get Yann bored garden Jason thirsty kitchen travelled got football Antoine milk hungry journeyed took apple moved picked up 
+number of samples : 1000
+< Sample Info. >
+    Number of Samples : 10000
+    Dim of Input : 48
+    Dim of Word : 7
+    Dim of Dict : 36
+< Sample Info. >
+    Number of Samples : 1000
+    Dim of Input : 48
+    Dim of Word : 7
+    Dim of Dict : 36
+< Sample Init. >
+< Layer Construction >
+    Dim input : 48
+    Dim emb   : 60
+    Number of Samples - Train : 9000
+    Number of Samples - Valid : 1000
+    Number of Samples - Test  : 1000
+    Size of Batch : 32
+    Number of Hop : 3
+ < dense constructor > - dim_out: 60, dim_in: 48, act: NULL, f_fixed: true, iwl_in: 3, frac_in: 6, iwl_w: 3, frac_w: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 12, dim_out: 60, dim_in: 48, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 12, dim_out: 60, dim_in: 48, f_fixed: true, iwl: 3, frac: 6, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 12, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 12, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 12, dim_y: 60, dim_vec: 12, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 3, frac_w: 6, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 12, dim_out: 60, dim_in: 48, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 12, dim_out: 60, dim_in: 48, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 12, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 12, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 12, dim_y: 60, dim_vec: 12, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 2, frac_w: 7, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 12, dim_out: 60, dim_in: 48, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dense_mat_constructor > - dim_len_max: 12, dim_out: 60, dim_in: 48, f_fixed: true, iwl: 1, frac: 8, f_mode: 3
+ < dot_mat_vec_constructor > - dim_x_max: 12, dim_y: 60, dim_vec: 60, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < softmax_constructor > - dim_max: 12, f_shift_based: false
+ < dot_mat_vec_constructor > - dim_x_max: 12, dim_y: 60, dim_vec: 12, f_fixed: true, iwl_m: 2, frac_m: 7, iwl_v: 2, frac_v: 7, f_mode: 3, attention_mode: 3
+ < dense constructor > - dim_out: 60, dim_in: 60, act: NULL, f_fixed: true, iwl_in: 2, frac_in: 7, iwl_w: 1, frac_w: 8, f_mode: 3
+ < sum_vec_constructor > - dim: 60, f_fixed: true, iwl: 2, frac: 7, f_mode: 3
+ < dense constructor > - dim_out: 48, dim_in: 60, act: NULL, f_fixed: false, iwl_in: 7, frac_in: 8, iwl_w: 7, frac_w: 8, f_mode: 3
+ < softmax_constructor > - dim_max: 48, f_shift_based: false
+ < cross_entropy_constructor > - dim: 48
+TASK LOOP : 0
+< Train Phase >
+< ITR :   0 >  (train,valid,valid_best) - loss: -5564.435059, -905.007263, -905.007263, error: 0.244000, 0.041000, 0.041000
+< Test Phase >
+err(test) : 0.029000
+< TIME PROFILE >
+ TRAIN 
+Layer : Constructor : Init : In : Fwd : Bwd : W_up : Destructor
+[0] : [0] 0.000233  [1] 0.000809  [2] 0.003833  [3] 0.119176  [4] 0.159112  [5] 0.014127  [6] 0.000000  
+[1] : [0] 0.000216  [1] 0.000812  [2] 0.003728  [3] 0.107452  [4] 0.163142  [5] 0.014214  [6] 0.000000  
+[2] : [0] 0.000143  [1] 0.000301  [2] 0.001369  [3] 0.050703  [4] 0.056932  [5] 0.003127  [6] 0.000000  
+[3] : [0] 0.000104  [1] 0.000041  [2] 0.003883  [3] 0.095929  [4] 0.169680  [5] 0.000000  [6] 0.000000  
+[4] : [0] 0.000057  [1] 0.000019  [2] 0.003902  [3] 0.242427  [4] 0.077609  [5] 0.000000  [6] 0.000000  
+[5] : [0] 0.000101  [1] 0.000040  [2] 0.003741  [3] 0.202742  [4] 0.170838  [5] 0.000000  [6] 0.000000  
+[6] : [0] 0.000237  [1] 0.000961  [2] 0.007552  [3] 0.291405  [4] 0.237046  [5] 0.008747  [6] 0.000000  
+[7] : [0] 0.000057  [1] 0.000256  [2] 0.001182  [3] 0.033530  [4] 0.056875  [5] 0.002989  [6] 0.000000  
+[8] : [0] 0.000016  [1] 0.000007  [2] 0.001294  [3] 0.054306  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9] : [0] 0.000042  [1] 0.000015  [2] 0.001193  [3] 0.113271  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< TIME PROFILE >
+ TEST 
+[0][0] 0.000000  [1] 0.000000  [2] 0.000366  [3] 0.021840  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[1][0] 0.000000  [1] 0.000000  [2] 0.000382  [3] 0.017178  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[2][0] 0.000000  [1] 0.000000  [2] 0.000117  [3] 0.019629  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[3][0] 0.000000  [1] 0.000000  [2] 0.000400  [3] 0.014154  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[4][0] 0.000000  [1] 0.000000  [2] 0.000344  [3] 0.102466  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[5][0] 0.000000  [1] 0.000000  [2] 0.000365  [3] 0.062660  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[6][0] 0.000000  [1] 0.000000  [2] 0.000737  [3] 0.114715  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[7][0] 0.000000  [1] 0.000000  [2] 0.000120  [3] 0.004663  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[8][0] 0.000000  [1] 0.000000  [2] 0.000117  [3] 0.007850  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+[9][0] 0.000000  [1] 0.000000  [2] 0.000110  [3] 0.044051  [4] 0.000000  [5] 0.000000  [6] 0.000000  
+< Setting >
+   NUM_TAKS : 20
+   HW_MODE : 2
+   EN_TRAIN : 1
+   EN_LOAD_WEIGHT : 0
+   EN_WRITE_WEIGHT : 0
+   ATTENTION MODE : approximate
+    approximate attention bit : 10
+< Result - Train >
+ -TIME
+   avg : 7.874116
+   max : 7.874116
+   min : 7.874116
+   profile total : 2.481523
+   data transfer time: 0.000000
+ -ERROR RATE
+   avg : 0.244000
+   max : 0.244000
+   min : 0.244000
+< Result - Test >
+ -TIME
+   avg : 0.440047
+   max : 0.440047
+   min : 0.440047
+   profile total : 0.412264
+ -ERROR RATE
+   avg : 0.029000
+   max : 0.029000
+   min : 0.029000
