@@ -11,9 +11,12 @@ Training & inference w/ quatized model
 C & Cuda based deep learning libaray
 
 
+
 # How to make & run
 run.sh (in ./MemN2N)
 
-
 # Configurations
 define.h (in ./MemN2N)
+
+# bAbI dataset
+to be updated
